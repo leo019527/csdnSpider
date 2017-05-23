@@ -1,0 +1,1509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class='csdn-bbs'>
+    <head>
+      <script id="allmobilize" charset="utf-8" src="http://a.yunshipei.com/1327c36bdd7197e30fd9f4b48d1a5bcc/allmobilize.min.js"></script>
+<meta http-equiv="Cache-Control" content="no-transform" />
+<link rel="alternate" media="handheld" href="#" />
+
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>CSDN论坛首页 - CSDN.NET-CSDN论坛-CSDN.NET-中国最大的IT技术社区</title>
+      <link href="/assets/index-22811dde7d0528898789c160b043782e.css" media="screen" rel="stylesheet" type="text/css" />
+      <link href="//c.csdnimg.cn/public/themes/default/css/btn.css" media="screen" rel="stylesheet" type="text/css" />
+      <script src="/assets/application-73a79ab67b5eca88701b728d54cb956b.js" type="text/javascript"></script>
+
+
+      
+      
+      <link href="/assets/main-a20d644e7582b99ee25e793fab53ee22.css" media="screen" rel="stylesheet" type="text/css" />
+      <script src="http://counter.csdn.net/a/js/AreaCounter.js" type="text/javascript" charset="utf-8"></script>
+
+
+      <link href="http://c.csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+<link rel="stylesheet" href="http://c.csdnimg.cn/public/common/toolbar/css/index.css">
+<script language="javascript" type="text/javascript" src="http://ads.csdn.net/js/tracking.js"></script>
+<script type="text/javascript">
+    document.domain = "csdn.net";
+    var proxy_url = "http://internalapi.csdn.net/proxy.html";
+		var ajaxProxyCaches = {};
+		function ajaxProxy(proxyUrl, opts) {
+		    var c = ajaxProxyCaches[proxyUrl];
+		    if (c === undefined) {
+		        c = ajaxProxyCaches[proxyUrl] = [];
+		        var func = arguments.callee;
+		        $('<iframe class="poxy_uc" src="' + proxyUrl + '" style="display:none">').load(function () {
+		            c.contentWindow = this.contentWindow;
+		            func(proxyUrl, opts);
+		        }).prependTo('body');
+		    } else if (c.contentWindow === undefined) {
+		        c.push(opts);
+		    } else {
+		        do {
+		            c.contentWindow.jQuery.ajax(opts);
+		        } while (opts = c.shift());
+		    }
+		}
+</script>
+      <meta content="authenticity_token" name="csrf-param" />
+<meta content="LbAjp50wo/R5Fwbi7IXPM6YMFuPEF5J3ScEd2nSbP5g=" name="csrf-token" />
+      <link href="http://bbs.csdn.net/home.atom" rel="alternate" title="ATOM" type="application/atom+xml" />
+      
+      <!--  js for ask-->
+      <link href="http://c.csdnimg.cn/comm_ask/css/ask_float_block.css" rel="stylesheet" type="text/css" />
+
+      <script type="text/javascript" src="http://c.csdnimg.cn/comm_ask/js/libs/wmd.js"></script>
+
+      <script type="text/javascript" src="http://c.csdnimg.cn/comm_ask/js/libs/showdown.js"></script>
+
+      <script type="text/javascript" src="http://c.csdnimg.cn/comm_ask/js/libs/prettify.js"></script>
+
+      <script type="text/javascript" src="http://c.csdnimg.cn/comm_ask/js/apps/ask_float_block.js"></script>
+      <!--  js for ask  end-->
+    </head>
+    <body id="main-home" class="topic-list open">
+        <!-- <script type="text/javascript" src="http://c.csdnimg.cn/pubnav/js/pub_topnav_2011.js"></script> -->
+
+<!--全屏-->
+<ins data-revive-zoneid="149" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+<!--全屏-->
+
+<script id="toolbar-tpl-scriptId" skin="black" prod="bbs" fixed="true" src="http://c.csdnimg.cn/public/common/toolbar/js/html.js" type="text/javascript"></script>
+      <!-- 统计代码 -->
+<script type="text/javascript">
+  var protocol = window.location.protocol;
+  document.write('<script type="text/javascript" src="' +protocol+ '//csdnimg.cn/pubfooter/js/repoAddr2.js?v=' + Math.random() + '"></'+'script>');
+</script>
+
+
+
+        <script src="/assets/left_menu-316d72ba4ad8fa3d77a7691964f4005d.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://c.csdnimg.cn/pig/pubjs/cnick.js"></script>
+<script src="/dynamic_js/left_menu.js" type="text/javascript" charset="utf-8"></script>
+
+<div class="left_side">
+  <span class="btn_toggle_yc">隐藏侧边栏&larr;</span>
+  <span class="btn_toggle_xs">显示侧边栏&rarr;</span>
+  <div class="left_main">
+      <div class="user_head">
+        <h1>个人资料</h1>
+            <dl>
+              <dt>
+                <a href="http://my.csdn.net" target="_blank"><img name="" src="/assets/guest.jpg" alt="username" /></a>
+              </dt>
+              <dd>
+                <ul>
+                  <li><a href="javascript:void(0);"><strong>guest</strong></a></li>
+                  <li><a href="https://passport.csdn.net/account/login?from=http://bbs.csdn.net/" class="btn_1" target="_top"><span>登录</span></a></li>
+                  <li><a href="https://passport.csdn.net/account/register" class="btn_1" target="_top"><span>注册</span></a></li>
+                </ul>
+              </dd>
+            </dl>
+        <a href="http://api.csdn.net/service/baidu/login?u=http://yun.baidu.com/xcloud/csdn/pan" target="_blank" style="margin-left: 18px; font-weight: bold; color: red">CSDN 网盘</a>
+      </div>
+      <div class="tree">
+        <div class="search_bbs">
+          <form id="search_form">
+            <input id="search_input" type="text" class="sear_input" placeholder="寻找我感兴趣的论坛" autocomplete="off"/>
+          </form>
+          <div id="search_tree"></div>
+        </div>
+        <div id="menu"></div>
+        <script type="text/javascript">
+            $(function(){
+                $('#left_user_info').hover(function(){ $('.side_material').show(); }, function(){ $('.side_material').hide(); });
+                $('.left_side .btn_toggle_yc').click(function(){
+                   $('body').toggleClass('open');
+                    $(this).toggle();
+                    $('.left_side .btn_toggle_xs').toggle();
+                });
+                $('.left_side .btn_toggle_xs').click(function(){
+                    $('body').toggleClass('open');
+                    $(this).toggle();
+                    $('.left_side .btn_toggle_yc').toggle();
+                });
+
+                //使用live方法实时监控对应文件夹图标的事件，文件夹图标只有打开和关闭的效果，无页面跳转，无论元素是否是动态生成的live都可以执行
+                $('#menu span[id^=menu_][id$=_switch]').live("click", function(){
+                    var cookie_item_ids = $.cookie('forum_item_id');
+                    var item_id =  $(this).attr('id');
+
+                    if($(this).hasClass("noline_open")){
+                        if(cookie_item_ids != null && cookie_item_ids.indexOf(item_id) < 0 ){
+                            $.cookie('forum_item_id',cookie_item_ids + "," + item_id, {path: '/'});
+                        }else if(cookie_item_ids == null || cookie_item_ids == ''){
+                            $.cookie('forum_item_id', "," + item_id, {path: '/'});
+                        }
+                    }else if($(this).hasClass("noline_close") >= 0){
+                        if(cookie_item_ids != null && cookie_item_ids.indexOf(item_id) >= 0){
+                            $.cookie('forum_item_id',cookie_item_ids.replace("," + item_id, ""), {path: '/'});
+                        }
+                    }
+                });
+
+                // 目录树只加载了以及目录，二级以下的目录都是延迟加载
+                var forum_items_ids = $.cookie('forum_item_id');
+                if(forum_items_ids != null){
+                  var array_itmes = forum_items_ids.split(",");
+                  for(var i=0; i<array_itmes.length; i++ ){
+                    if(array_itmes[i]!=''){
+                      //当底层的文件目录打开，而父层的目录被关闭，页面刷新时，因为延迟加载导致不存在的底层目录无法打开，所以从cookie中删除
+                      if($("#"+array_itmes[i]).length > 0){
+                        $("#"+array_itmes[i]).trigger(("click"));
+                      }else{
+                        $.cookie('forum_item_id',forum_items_ids.replace("," + array_itmes[i], ""), {path: '/'});
+                      }
+
+                    }
+                  }
+                }
+            });
+
+        </script>
+      </div>
+    </div>
+</div>
+
+
+        <div class="news-nav">
+  <div class="container">
+    <div class="nav-bar">
+      <a href="/home" class="current">首页</a>
+      <span class="dropdown">
+  <a href="#">精选版块</a>
+  <span class="caret"></span>
+  <div class="dropdown-menu">
+    <dl>
+      <dt><a href="/forums/Mobile">移动开发</a></dt>
+      <dd>
+        <a href="/forums/ios">iOS</a>
+        <a href="/forums/Android">Android</a>
+        <a href="/forums/Qt">Qt</a>
+        <a href="/forums/WindowsMobile">WP</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="/forums/CloudComputing">云计算</a></dt>
+      <dd>
+        <a href="/forums/AWS">IaaS</a>
+        <a href="/forums/CloudFoundry">Pass/SaaS</a>
+        <a href="/forums/hadoop">分布式计算/Hadoop</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="/forums/Java">Java技术</a></dt>
+      <dd>
+        <a href="/forums/J2SE">Java SE</a>
+        <a href="/forums/Java_WebDevelop">Java Web 开发</a>
+        <a href="/forums/J2EE">Java EE</a>
+        <a href="/forums/JavaOther">Java其他相关</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="/forums/DotNET">.NET技术</a></dt>
+      <dd>
+        <a href="/forums/DotNETFramework">.NET Framework</a>
+        <a href="/forums/CSharp">C#</a>
+        <a href="/forums/DotNETAnalysisAndDesign">.NET分析与设计</a>
+        <a href="/forums/ASPDotNET">ASP .NET</a>
+        <a href="/forums/VBDotNET">VB .NET</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="/forums/WebDevelop">Web开发</a></dt>
+      <dd>
+        <a href="/forums/PHP">PHP</a>
+        <a href="/forums/JavaScript">JavaScript</a>
+        <a href="/forums/ASP">ASP</a>
+        <a href="/forums/HTMLCSS">HTML(CSS)</a>
+        <a href="/forums/HTML5">HTML5</a>
+        <a href="/forums/Apache">Apache</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="#">开发语言/框架</a></dt>
+      <dd>
+        <a href="/forums/Delphi">Delphi</a>
+        <a href="/forums/VC">VC/MFC</a>
+        <a href="/forums/VB">VB</a>
+        <a href="/forums/Cpp">C/C++</a>
+        <a href="/forums/BCB">C++ Builder</a>
+        <a href="/forums/OtherLanguage">其他开发语言</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="#">数据库开发</a></dt>
+      <dd>
+        <a href="/forums/MSSQL">MS-SQL Server</a>
+        <a href="/forums/Oracle">Oracle</a>
+        <a href="/forums/PowerBuilder">PowerBuilder</a>
+        <a href="/forums/Informatica">Informatica</a>
+        <a href="/forums/OtherDatabase">其他数据库开发</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="/forums/Embedded">硬件/嵌入式开发</a></dt>
+      <dd>
+        <a href="/forums/WinCE">嵌入开发(WinCE)</a>
+        <a href="/forums/Embedded_driver">驱动开发/核心开发</a>
+        <a href="/forums/Embedded_hardware">硬件设计</a>
+        <a href="/forums/Embedded_SCM">单片机/工控</a>
+        <a href="/forums/ASM">汇编语言</a>
+        <a href="/forums/VxWorks">VxWorks开发</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="/forums/Linux">Linux/Unix社区</a></dt>
+      <dd>
+        <a href="/forums/Linux_System">系统维护与使用区</a>
+        <a href="/forums/Linux_Development">应用程序开发区</a>
+        <a href="/forums/Linux_Kernel">内核源代码研究区</a>
+        <a href="/forums/Linux_Driver">驱动程序开发区</a>
+        <a href="/forums/Linux_Hardware">CPU和硬件区</a>
+      </dd>
+    </dl>
+  </div>
+</span>
+
+      <a href="/help" class="">论坛帮助</a>
+      <a href="/rank" class="">论坛牛人</a>
+      <a href="/map" class="">论坛地图</a>
+      <a href="/ask" class="">专家问答</a>
+    </div>
+  </div>
+</div>
+        <div class="wrap">
+          
+    <script src="http://www.csdn.net/ggmm/csdn_ggmm.js" type="text/javascript" charset="utf-8"></script>
+
+
+    <div class="inner">
+      <div class="ad_top">
+      <!-- 头文件下通栏 (C1) -->
+        <div>
+        	<ins data-revive-zoneid="46" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+        </div>
+      </div>
+
+      <div>
+        <div class="middle">
+          <div class="focus">
+            <h2><span class="fr"><a href="/tops" target="_blank" class="history">头条回顾</a> <a href="/bulletins" target="_blank">更多&gt;&gt;</a></span>论坛焦点</h2>
+            <div class="focusleft tracking-ad" data-mod='popu_5'>
+                  <h5>
+                    <a href="http://bbs.csdn.net/topics/392162509" target="_blank">[原创] (4) 深圳，让我彷徨的“天堂” </a>
+                  </h5>
+                  <ul>
+                        <li><a href="http://bbs.csdn.net/topics/392162155" class="title_style_black" target="_blank">想创业，给点意见</a></li>
+                        <li><a href="http://bbs.csdn.net/topics/392082768" class="title_style_black" target="_blank">而立之年，职业规划</a></li>
+                        <li><a href="http://bbs.csdn.net/topics/392082703" class="title_style_black" target="_blank">如何要求涨薪？</a></li>
+                        <li><a href="http://bbs.csdn.net/topics/392081967" class="title_style_black" target="_blank">新人如何度过实习期？</a></li>
+                  </ul>
+            </div>
+            <div class="focusright">
+              <!-- 社区焦点文字 (C2) -->
+              <div>
+                <head>
+  <style>
+      /*body {font: normal 14px/24px Helvetica, Tahoma, Arial, sans-serif; margin: 0; padding: 0;}*/
+      /*h6{margin: 0 0 4px 0; font-size: 16px; line-height: 20px; text-align: center;}*/
+      /*p{margin: 0;}*/
+      /*a{color: #333; text-decoration: none;}*/
+      /*a:hover{text-decoration: underline;}*/
+  </style>
+</head>
+<body>
+<script language='JavaScript' type='text/javascript' src="http://ag.csdn.net/common/getcmsad.ashx?column=57c0f155-6a82-4f4b-85fb-8d0c08866340&count=1"></script>
+</body>
+              </div>
+              <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="/sda/CFocusRightBoard.htm"></iframe>-->
+            </div>
+
+            <div class="focus_list tracking-ad" data-mod='popu_5'>
+                  <ul>
+                      <li>
+                        <a href="http://edu.csdn.net/huiyiCourse/detail/372?ref=bbs&amp;loc=r0" class="title_style_red title_style_bold" target="_blank">【分享】从程序员到CTO,你只差一步！</a>
+                      </li>
+                      <li>
+                        <a href="http://bbs.csdn.net/topics/392162155" class="title_style_red title_style_bold" target="_blank">asp.net core MVC讨论</a>
+                      </li>
+                      <li>
+                        <a href="http://bbs.csdn.net/topics/392158569" class="title_style_black" target="_blank">Oracle 分区表知识大讨论</a>
+                      </li>
+                      <li>
+                        <a href="http://bbs.csdn.net/topics/392163889" class="title_style_black" target="_blank">五一面试-请大家参谋几个问题</a>
+                      </li>
+                      <li>
+                        <a href="http://bbs.csdn.net/topics/391963931" class="title_style_black" target="_blank">要连接别人的数据库，本地网络服务配置成功，plsql的数据库没有我配置的服务名</a>
+                      </li>
+                      <li>
+                        <a href="http://bbs.csdn.net/topics/392080248" class="title_style_black" target="_blank">Oracle Dataguard如何配置物理standby </a>
+                      </li>
+                  </ul>
+            </div>
+            <div class="focus_list">
+              <div class="focusleft tracking-ad" data-mod='popu_5'>
+                    <h5 class="focusleft_thirdhead">
+                    <a href="http://edu.csdn.net/huiyiCourse/series_detail/37?ref=bbs&amp;loc=r0" target="_blank">【直播】python自动化运维实战！</a>
+                    </h5>
+                    <ul>
+                          <li><a href="http://bbs.csdn.net/topics/391952487" class="title_style_black" target="_blank">mvc修改配置文件报错</a></li>
+                          <li><a href="http://bbs.csdn.net/topics/391953684" class="title_style_black" target="_blank">python错误怎解决 </a></li>
+                          <li><a href="http://bbs.csdn.net/topics/392014248" class="title_style_black" target="_blank">JS中的数据传送问题</a></li>
+                          <li><a href="http://bbs.csdn.net/topics/392014052" class="title_style_black" target="_blank">jsp网站发布时报错 </a></li>
+                    </ul>
+              </div>
+              <div class="focusright">
+                <div>
+                  <head>
+  <style>
+      /*body {font: normal 14px/24px Helvetica, Tahoma, Arial, sans-serif; margin: 0; padding: 0;}*/
+      /*h6{margin: 0 0 4px 0; font-size: 16px; line-height: 20px; text-align: center;}*/
+      /*p{margin: 0;}*/
+      /*a{color: #333; text-decoration: none;}*/
+      /*a:hover{text-decoration: underline;}*/
+  </style>
+</head>
+<body>
+<script language='JavaScript' type='text/javascript' src="http://ag.csdn.net/common/getcmsad.ashx?column=012aebb7-05f4-4fa0-b7bb-7f4bbad9d4a7&count=1"></script>
+</body>
+                </div>
+                <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="/sda/CFocusRightDownBoard.htm"></iframe>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="sns_public">
+            <h2>论坛公告</h2>
+                <ul class='tracking-ad' data-mod='popu_6'>
+                    <li><a href="http://edu.csdn.net/huiyiCourse/detail/404" class="title_style_black" target="_blank" title="机器学习工程师40天突破">机器学习工程师40天突破</a></li>
+                    <li><a href="http://bbs.csdn.net/topics/392170532" class="title_style_black" target="_blank" title="【即将直播】 AR技术大揭秘，一小时快速掌握！">【即将直播】 AR技术大揭秘，</a></li>
+                    <li><a href="http://bbs.csdn.net/topics/392167849" class="title_style_black" target="_blank" title="有奖活动：向赛灵思提问就有机会获得好礼！">有奖活动：向赛灵思提问就有机</a></li>
+                    <li><a href="http://bbs.csdn.net/topics/392168546" class="title_style_black" target="_blank" title="【讨论有奖】技术不够，工具来凑 Qualcomm带您一起补兵守塔！">【讨论有奖】技术不够，工具来</a></li>
+                    <li><a href="http://bss.csdn.net/m/product/python_creative/index" class="title_style_black" target="_blank" title="Python创意编程活动开始啦！！">Python创意编程活动开始啦！！</a></li>
+                    <li><a href="http://edu.csdn.net/huiyiCourse/series_detail/35?ref=bbs&amp;loc=0" class="title_style_black" target="_blank" title="【系列直播】微信公众号开发技术实战！">【系列直播】微信公众号开发技</a></li>
+                    <li><a href="http://edu.csdn.net/huiyiCourse/series_detail/38?ref=bbs&amp;loc=0" class="title_style_black" target="_blank" title="【即将直播】人工智能核心技术解析实战！">【即将直播】人工智能核心技术</a></li>
+                    <li><a href="http://edu.csdn.net/huiyiCourse/detail/361" class="title_style_black" target="_blank" title="内核字符集转换实现浅析">内核字符集转换实现浅析</a></li>
+                </ul>
+          </div>
+          <div class="ask">
+            <a href="/topics/new" target="_blank" title="我要发贴"><img src="/assets/btn_ask.png" alt="我要发贴" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="middle">
+          <div class="recom_tech">
+            <h4><span><a href="/recommend_tech_topics" target="_blank" class="more">更多&gt;&gt;</a></span>版主推荐-技术区<a href="/recommend_tech_topics.atom" class="rss" target="_blank">RSS</a></h4>
+                <ul>
+                    <li>
+                      <a href="http://my.csdn.net/VergilYe" class="writer" rel="nofollow" target="_blank">VergilYe</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/wangyaninglm" rel="nofollow" target="_blank">[wangyaninglm推荐]</a>
+                      </span>
+                      <a href="/topics/392171461" class="title" target="_blank" title="【C++】【GDI+】如何检测鼠标是否在矩形内，并粗化该矩形（图中有多个矩形）">【C++】【GDI+】如何检测鼠标是否在...</a>
+                      <span class="classfiy"><a href="/forums/VC_ImageProcessing">[图形处理/算法]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/nigelyq" class="writer" rel="nofollow" target="_blank">nigelyq</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/nigelyq" rel="nofollow" target="_blank">[nigelyq推荐]</a>
+                      </span>
+                      <a href="/topics/392171392" class="title" target="_blank" title="[资源优选]第十九期：20个热门的C语言源码">[资源优选]第十九期：20个热门的C...</a>
+                      <span class="classfiy"><a href="/forums/C">[C语言]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/liboin" class="writer" rel="nofollow" target="_blank">liboin</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/wangyaninglm" rel="nofollow" target="_blank">[wangyaninglm推荐]</a>
+                      </span>
+                      <a href="/topics/392170555" class="title" target="_blank" title="有一组采样后的离散数据（十六进制）,我想在MFC里用画频谱图,程序怎么写">有一组采样后的离散数据（十六进制）...</a>
+                      <span class="classfiy"><a href="/forums/VC_ImageProcessing">[图形处理/算法]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/CSDNhanrui" class="writer" rel="nofollow" target="_blank">CSDNhanrui</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/CSDNhanrui" rel="nofollow" target="_blank">[CSDNhanrui推荐]</a>
+                      </span>
+                      <a href="/topics/392170532" class="title" target="_blank" title=" AR技术大揭秘，一小时快速掌握！"> AR技术大揭秘，一小时快速掌握！</a>
+                      <span class="classfiy"><a href="/forums/qualcomm">[高通开发]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/wgd81685" class="writer" rel="nofollow" target="_blank">wgd81685</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank">[shijing266推荐]</a>
+                      </span>
+                      <a href="/topics/392169521" class="title" target="_blank" title="jvm崩溃">jvm崩溃</a>
+                      <span class="classfiy"><a href="/forums/J2SE">[J2SE]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/qq_37810594" class="writer" rel="nofollow" target="_blank">qq_37810594</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank">[shijing266推荐]</a>
+                      </span>
+                      <a href="/topics/392168597" class="title" target="_blank" title="给Java新手的一些建议——Java知识点归纳(Java基础部分)">给Java新手的一些建议——Java知识点...</a>
+                      <span class="classfiy"><a href="/forums/JavaOther">[Java相关]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/qq_37810594" class="writer" rel="nofollow" target="_blank">qq_37810594</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank">[shijing266推荐]</a>
+                      </span>
+                      <a href="/topics/392168332" class="title" target="_blank" title="Java项目经验——程序员成长的钥匙">Java项目经验——程序员成长的钥匙</a>
+                      <span class="classfiy"><a href="/forums/JavaOther">[Java相关]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/CSDNhanrui" class="writer" rel="nofollow" target="_blank">CSDNhanrui</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/CSDNhanrui" rel="nofollow" target="_blank">[CSDNhanrui推荐]</a>
+                      </span>
+                      <a href="/topics/392168546" class="title" target="_blank" title="【讨论有奖】技术不够，工具来凑。Qualcomm带您一起补兵守塔！">【讨论有奖】技术不够，工具来凑。Qu...</a>
+                      <span class="classfiy"><a href="/forums/qualcomm">[高通开发]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/chang_bo" class="writer" rel="nofollow" target="_blank">chang_bo</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/chang_bo" rel="nofollow" target="_blank">[chang_bo推荐]</a>
+                      </span>
+                      <a href="/topics/392168513" class="title" target="_blank" title="关于WannaCry病毒及防范措施">关于WannaCry病毒及防范措施</a>
+                      <span class="classfiy"><a href="/forums/WindowsSecurity">[安全技术/病毒]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/yunluohoujueqi" class="writer" rel="nofollow" target="_blank">yunluohoujueqi</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank">[shijing266推荐]</a>
+                      </span>
+                      <a href="/topics/392165355" class="title" target="_blank" title="迷茫的问题，求过来人引导">迷茫的问题，求过来人引导</a>
+                      <span class="classfiy"><a href="/forums/Java_WebDevelop">[Web 开发]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/a854115043" class="writer" rel="nofollow" target="_blank">a854115043</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/showbo" rel="nofollow" target="_blank">[showbo推荐]</a>
+                      </span>
+                      <a href="/topics/392167594" class="title" target="_blank" title="求教为什么我这样写取不到数据？">求教为什么我这样写取不到数据？</a>
+                      <span class="classfiy"><a href="/forums/Ajax">[Ajax]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/zhuojin8749" class="writer" rel="nofollow" target="_blank">zhuojin8749</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/wangyaninglm" rel="nofollow" target="_blank">[wangyaninglm推荐]</a>
+                      </span>
+                      <a href="/topics/392157339" class="title" target="_blank" title="【算术编码】实现图像加密与解密">【算术编码】实现图像加密与解密</a>
+                      <span class="classfiy"><a href="/forums/VC_ImageProcessing">[图形处理/算法]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/a707748808" class="writer" rel="nofollow" target="_blank">a707748808</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank">[shijing266推荐]</a>
+                      </span>
+                      <a href="/topics/392163889" class="title" target="_blank" title="昨天面试，有几个问题没搭的很好，请大家帮我参谋参谋">昨天面试，有几个问题没搭的很好，请...</a>
+                      <span class="classfiy"><a href="/forums/J2EE">[J2EE]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/qq_36291408" class="writer" rel="nofollow" target="_blank">qq_36291408</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/hanjun0612" rel="nofollow" target="_blank">[hanjun0612推荐]</a>
+                      </span>
+                      <a href="/topics/392162155" class="title" target="_blank" title="asp.net core MVC讨论">asp.net core MVC讨论</a>
+                      <span class="classfiy"><a href="/forums/ASPDotNET">[ASP.NET]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/xu346332829" class="writer" rel="nofollow" target="_blank">xu346332829</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/hanjun0612" rel="nofollow" target="_blank">[hanjun0612推荐]</a>
+                      </span>
+                      <a href="/topics/392164212" class="title" target="_blank" title="【一些问题】 五一之前碰到的面试问题">【一些问题】 五一之前碰到的面试问...</a>
+                      <span class="classfiy"><a href="/forums/ASPDotNET">[ASP.NET]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/xu346332829" class="writer" rel="nofollow" target="_blank">xu346332829</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/hanjun0612" rel="nofollow" target="_blank">[hanjun0612推荐]</a>
+                      </span>
+                      <a href="/topics/392164208" class="title" target="_blank" title="【一些问题】 五一之前碰到的面试问题">【一些问题】 五一之前碰到的面试问...</a>
+                      <span class="classfiy"><a href="/forums/CSharp">[C#]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/yilanzhongshanxiao" class="writer" rel="nofollow" target="_blank">yilanzhongshanxiao</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/wangyaninglm" rel="nofollow" target="_blank">[wangyaninglm推荐]</a>
+                      </span>
+                      <a href="/topics/392147767" class="title" target="_blank" title="WIN7下 vs2010 调用findChessboardCorners 和 findCirclesGrid异常,请各位帮组">WIN7下 vs2010 调用findChessboardCo...</a>
+                      <span class="classfiy"><a href="/forums/VC_ImageProcessing">[图形处理/算法]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/flyhigh" class="writer" rel="nofollow" target="_blank">flyhigh</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/oyljerry" rel="nofollow" target="_blank">[oyljerry推荐]</a>
+                      </span>
+                      <a href="/topics/392163218" class="title" target="_blank" title="开源界面库SOUI的多语言动态切换及dpiaware支持demo">开源界面库SOUI的多语言动态切换及dp...</a>
+                      <span class="classfiy"><a href="/forums/VC_UI">[界面]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/ruan1978" class="writer" rel="nofollow" target="_blank">ruan1978</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/wangyaninglm" rel="nofollow" target="_blank">[wangyaninglm推荐]</a>
+                      </span>
+                      <a href="/topics/392140412" class="title" target="_blank" title="低空的航拍图，拍摄的城市场景，用什么方法检测建筑物的轮廓？">低空的航拍图，拍摄的城市场景，用什...</a>
+                      <span class="classfiy"><a href="/forums/VC_ImageProcessing">[图形处理/算法]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/QQ1012421396" class="writer" rel="nofollow" target="_blank">QQ1012421396</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank">[shijing266推荐]</a>
+                      </span>
+                      <a href="/topics/392161533" class="title" target="_blank" title="史上最全的Servlet基础教程（收藏）">史上最全的Servlet基础教程（收藏）</a>
+                      <span class="classfiy"><a href="/forums/Java_WebDevelop">[Web 开发]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/DuMiYue" class="writer" rel="nofollow" target="_blank">DuMiYue</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/oyljerry" rel="nofollow" target="_blank">[oyljerry推荐]</a>
+                      </span>
+                      <a href="/topics/392158734" class="title" target="_blank" title="高性能 TCP &amp; UDP 通信框架 HP-Socket v4.2.1">高性能 TCP &amp; UDP 通信框架 HP-Sock...</a>
+                      <span class="classfiy"><a href="/forums/VC_Network">[网络编程]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/lovelj2012" class="writer" rel="nofollow" target="_blank">lovelj2012</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/wmxcn2000" rel="nofollow" target="_blank">[wmxcn2000推荐]</a>
+                      </span>
+                      <a href="/topics/392158569" class="title" target="_blank" title="Oracle 分区表知识大讨论（来者有分）">Oracle 分区表知识大讨论（来者有分...</a>
+                      <span class="classfiy"><a href="/forums/Oracle_Management">[基础和管理]</a></span>
+                    </li>
+                </ul>
+          </div>
+          <div class="recom_life">
+            <h4><span><a href="/recommend_nontech_topics" target="_blank" class="more">更多&gt;&gt;</a></span>版主推荐-生活区<a href="/recommend_nontech_topics.atom" class="rss" target="_blank">RSS</a></h4>
+                <ul>
+                    <li>
+                      <a href="http://my.csdn.net/clhmaster" class="writer" rel="nofollow" target="_blank">clhmaster</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/jiajing1990_" rel="nofollow" target="_blank">[jiajing1990_推荐]</a>
+                      </span>
+                      <a href="/topics/392170644" class="title" target="_blank" title="#勒索病毒变种# ">#勒索病毒变种# </a>
+                      <span class="classfiy"><a href="/forums/sdwj">[首都网警]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/u010087908" class="writer" rel="nofollow" target="_blank">u010087908</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/m2200" rel="nofollow" target="_blank">[m2200推荐]</a>
+                      </span>
+                      <a href="/topics/392171882" class="title" target="_blank" title="你们为养老做了哪些准备？">你们为养老做了哪些准备？</a>
+                      <span class="classfiy"><a href="/forums/FreeZone">[灌水乐园]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/u010087908" class="writer" rel="nofollow" target="_blank">u010087908</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/m2200" rel="nofollow" target="_blank">[m2200推荐]</a>
+                      </span>
+                      <a href="/topics/392171466" class="title" target="_blank" title="【娜娜讲坛】 乱炖德意志">【娜娜讲坛】 乱炖德意志</a>
+                      <span class="classfiy"><a href="/forums/FreeZone">[灌水乐园]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/wangningyu" class="writer" rel="nofollow" target="_blank">wangningyu</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/oyljerry" rel="nofollow" target="_blank">[oyljerry推荐]</a>
+                      </span>
+                      <a href="/topics/392170923" class="title" target="_blank" title="[原创连载] (5) 深圳，一个让我彷徨的“天堂” —— 迷茫期......">[原创连载] (5) 深圳，一个让我彷徨...</a>
+                      <span class="classfiy"><a href="/forums/VC_NonTechnical">[非技术类]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/clhmaster" class="writer" rel="nofollow" target="_blank">clhmaster</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/clhmaster" rel="nofollow" target="_blank">[clhmaster推荐]</a>
+                      </span>
+                      <a href="/topics/392170652" class="title" target="_blank" title="【日常就要保护手机电脑！这么做不怕病毒来袭】">【日常就要保护手机电脑！这么做不怕...</a>
+                      <span class="classfiy"><a href="/forums/sdwj">[首都网警]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/u010087908" class="writer" rel="nofollow" target="_blank">u010087908</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/m2200" rel="nofollow" target="_blank">[m2200推荐]</a>
+                      </span>
+                      <a href="/topics/392170495" class="title" target="_blank" title=" 【娜娜讲坛】 乱弹德意志"> 【娜娜讲坛】 乱弹德意志</a>
+                      <span class="classfiy"><a href="/forums/FreeZone">[灌水乐园]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/u010087908" class="writer" rel="nofollow" target="_blank">u010087908</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/m2200" rel="nofollow" target="_blank">[m2200推荐]</a>
+                      </span>
+                      <a href="/topics/392170079" class="title" target="_blank" title="【娜娜讲坛】 照葫芦画瓢，咱也假模假样的弄个先导篇。">【娜娜讲坛】 照葫芦画瓢，咱也假模...</a>
+                      <span class="classfiy"><a href="/forums/FreeZone">[灌水乐园]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/a397875780" class="writer" rel="nofollow" target="_blank">a397875780</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/oyljerry" rel="nofollow" target="_blank">[oyljerry推荐]</a>
+                      </span>
+                      <a href="/topics/392165380" class="title" target="_blank" title="【公司过河拆桥】封闭开发app上线，公司竟然裁员，求助">【公司过河拆桥】封闭开发app上线，...</a>
+                      <span class="classfiy"><a href="/forums/CAREER">[职场生涯]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/shere_lin" class="writer" rel="nofollow" target="_blank">shere_lin</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/yixiaof" rel="nofollow" target="_blank">[yixiaof推荐]</a>
+                      </span>
+                      <a href="/topics/392167849" class="title" target="_blank" title="有奖活动：向赛灵思提问就有机会获得好礼！">有奖活动：向赛灵思提问就有机会获得...</a>
+                      <span class="classfiy"><a href="/forums/EmbeddedNonTechnical">[非技术区]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/xietinghmily" class="writer" rel="nofollow" target="_blank">xietinghmily</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/xietinghmily" rel="nofollow" target="_blank">[xietinghmily推荐]</a>
+                      </span>
+                      <a href="/topics/392170022" class="title" target="_blank" title="免费公开课：Auto SPICE实施经验分享">免费公开课：Auto SPICE实施经验分享</a>
+                      <span class="classfiy"><a href="/forums/ITCertificate">[IT培训]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/yixiaof" class="writer" rel="nofollow" target="_blank">yixiaof</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/yixiaof" rel="nofollow" target="_blank">[yixiaof推荐]</a>
+                      </span>
+                      <a href="/topics/392168672" class="title" target="_blank" title=" 2017年4月版主积分兑换公告"> 2017年4月版主积分兑换公告</a>
+                      <span class="classfiy"><a href="/forums/Moderator">[版主专区]</a></span>
+                    </li>
+                    <li>
+                      <a href="http://my.csdn.net/yixiaof" class="writer" rel="nofollow" target="_blank">yixiaof</a>
+                      <span class="recom_who">
+                        <a href="http://my.csdn.net/yixiaof" rel="nofollow" target="_blank">[yixiaof推荐]</a>
+                      </span>
+                      <a href="/topics/392168667" class="title" target="_blank" title="2017年3-4月版主考核公告">2017年3-4月版主考核公告</a>
+                      <span class="classfiy"><a href="/forums/Moderator">[版主专区]</a></span>
+                    </li>
+                </ul>
+          </div>
+        </div>
+        <div class="right">
+          <div class="example day_rank">
+            <h4>论坛标兵</h4>
+            <div id="Tab2">
+              <div class="tab">
+                <ul>
+                  <li id="two1" class="hover"><a href="#tech_day_rank"><span>技术区</span></a></li>
+                  <li id="two2"><a href="#nontech_day_rank"><span>非技术区</span></a></li>
+                </ul>
+              </div>
+              <div class="list">
+                <div id="tech_day_rank" class="hover">
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/pany1209" rel="nofollow" target="_blank"><img alt="pany1209" class="avatar" src="http://avatar.csdn.net/A/0/6/3_pany1209.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/pany1209" class="user_name" rel="nofollow" target="_blank" title="pany1209">pany1209</a></li>
+                          <li>昨日得分：<span class="num">411</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/zhao4zhong1" rel="nofollow" target="_blank"><img alt="zhao4zhong1" class="avatar" src="http://avatar.csdn.net/F/4/9/3_zhao4zhong1.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/zhao4zhong1" class="user_name" rel="nofollow" target="_blank" title="zhao4zhong1">zhao4zhong1</a></li>
+                          <li>昨日得分：<span class="num">307</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/duanzi_peng" rel="nofollow" target="_blank"><img alt="duanzi_peng" class="avatar" src="http://avatar.csdn.net/2/6/7/3_duanzi_peng.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/duanzi_peng" class="user_name" rel="nofollow" target="_blank" title="duanzi_peng">duanzi_peng</a></li>
+                          <li>昨日得分：<span class="num">200</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/sinat_28984567" rel="nofollow" target="_blank"><img alt="sinat_28984567" class="avatar" src="http://avatar.csdn.net/F/E/C/3_sinat_28984567.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/sinat_28984567" class="user_name" rel="nofollow" target="_blank" title="sinat_28984567">sinat_28984567</a></li>
+                          <li>昨日得分：<span class="num">190</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="last">
+                        <dt><a href="http://my.csdn.net/xdashewan" rel="nofollow" target="_blank"><img alt="xdashewan" class="avatar" src="http://avatar.csdn.net/6/7/7/3_xdashewan.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/xdashewan" class="user_name" rel="nofollow" target="_blank" title="xdashewan">xdashewan</a></li>
+                          <li>昨日得分：<span class="num">190</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                </div>
+                <div id="nontech_day_rank" style="display:none;">
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/Hello_Ge" rel="nofollow" target="_blank"><img alt="Hello_Ge" class="avatar" src="http://avatar.csdn.net/9/4/6/3_hello_ge.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/Hello_Ge" class="user_name" rel="nofollow" target="_blank" title="Hello_Ge">Hello_Ge</a></li>
+                          <li>昨日得分：<span class="num">500</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/chifan1100" rel="nofollow" target="_blank"><img alt="chifan1100" class="avatar" src="http://avatar.csdn.net/5/D/E/3_chifan1100.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/chifan1100" class="user_name" rel="nofollow" target="_blank" title="chifan1100">chifan1100</a></li>
+                          <li>昨日得分：<span class="num">330</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/jiajing1990_" rel="nofollow" target="_blank"><img alt="jiajing1990_" class="avatar" src="http://avatar.csdn.net/A/D/1/3_jiajing1990_.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/jiajing1990_" class="user_name" rel="nofollow" target="_blank" title="jiajing1990_">jiajing1990_</a></li>
+                          <li>昨日得分：<span class="num">329</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="">
+                        <dt><a href="http://my.csdn.net/qq_33911540" rel="nofollow" target="_blank"><img alt="qq_33911540" class="avatar" src="http://avatar.csdn.net/7/B/E/3_qq_33911540.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/qq_33911540" class="user_name" rel="nofollow" target="_blank" title="qq_33911540">qq_33911540</a></li>
+                          <li>昨日得分：<span class="num">317</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                      <dl class="last">
+                        <dt><a href="http://my.csdn.net/js14982" rel="nofollow" target="_blank"><img alt="js14982" class="avatar" src="http://avatar.csdn.net/D/9/F/3_js14982.jpg" /></a></dt>
+                        <dd>
+                        <ul>
+                          <li><a href="http://my.csdn.net/js14982" class="user_name" rel="nofollow" target="_blank" title="js14982">js14982</a></li>
+                          <li>昨日得分：<span class="num">284</span>分</li>
+                        </ul>
+                        </dd>
+                      </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 活动专区上Button (C3) -->
+          <div class="ad_1">
+            <div>
+              <head>
+  <style type="text/css" media="screen">
+      /*body, div{*/
+          /*margin: 0;*/
+          /*padding: 0;*/
+      /*}*/
+      /*img{*/
+          /*min-width: 200px;*/
+      /*}*/
+  </style>
+</head>
+<body>
+<div id="main_div">
+	<ins data-revive-zoneid="49" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+</div>
+</body>
+            </div>
+            <!--<iframe width="100%" height="240px"  frameborder="0" scrolling="no" src="/sda/home1.htm"></iframe>-->
+          </div>	    	      
+          <div class="recruit">
+            <h4><span><a href="http://lib.csdn.net" target="_blank" class="more">更多&gt;&gt;</a></span>推荐知识库</h4>
+            <div id="scrollDiv" class="scrollDiv">
+            	
+            </div>
+            <script type="text/javascript">
+							function renderLib(data) {
+								var html = '';
+								for(var i = 0; i < data.length && i < 3; i++){
+							    var item = data[i];
+							    
+							    
+							    html +=  '<dl class="relate_lib_list clearfix">';
+				          html +=  '  <dt>';
+				          html +=  '  	<a target="_blank" href="'+item.url+'">';
+							    html +=  '    	<img src="'+item.logo+'">';
+							    html +=  '  	</a>';
+							    html +=  '  </dt>';
+				          html +=  '  <dd>';
+				          html +=  '  	<h5><a target="_blank" href="'+item.url+'">'+item.name.replace(/知识库/,'')+'</a></h5>';
+				          html +=  '    <p><label><span>'+item.conCount+'</span><em>收录</em></label></p>';
+				          html +=  '  </dd>';
+				        	html +=  '</dl>';
+							  }
+							  
+							  return html; 
+							}
+							
+							$(function(){
+								  document.domain = 'csdn.net';
+								  ajaxProxy(proxy_url, {
+							        headers: {
+							            'X-acl-token': 'FdGFBxj3XMufW1DtRaB7cPrnT1MK'
+							        },
+							        type: "post",
+							        url: "http://internalapi.csdn.net/knowledge/api/api/base/getInfoByKeyword",
+							        contentType: "application/json",
+							        dataType: "json",
+							        success: function(data) {
+							        	document.domain = 'csdn.net';
+							            
+												if (data.bases != undefined) {		
+													$("#scrollDiv").append(renderLib(data.bases)).fadeIn();       
+												} else {
+													$('.recruit').remove();
+												}
+							        },
+							        error: function(err){
+							        	$('.recruit').fadeOut();
+							        	console.log(err);
+							        }
+							    });
+							})
+							</script>
+          </div>
+        </div>
+      </div>
+      <!-- 网友推荐上通栏 (C4) -->
+      <div class="ad_banner">
+        <div>
+          <head>
+  <style type="text/css" media="screen">
+      /*li{width:33%; list-style: none; margin:0; padding: 0; float: left;}*/
+      /*ul{margin: 0; padding: 0}*/
+  </style>
+</head>
+<div style="text-align: center; font-size: 0px;">
+  <ins data-revive-zoneid="47" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+</div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="middle">
+          <div class="recom_neter">
+            <h4><span><a href="/rank" target="_blank" class="more">更多&gt;&gt;</a></span>论坛牛人</h4>
+            <ul>
+                <li>
+                  <dl>
+                    <dt><a href="http://my.csdn.net/DentistryDoctor" rel="nofollow" target="_blank"><img alt="DentistryDoctor" class="avatar" src="http://avatar.csdn.net/E/8/5/3_dentistrydoctor.jpg" /></a></dt>
+                    <dd>
+                      <span><a href="http://my.csdn.net/DentistryDoctor" class="user_name" rel="nofollow" target="_blank" title="DentistryDoctor">DentistryDoctor</a></span>
+                      <a href="#" class="att" data-username="DentistryDoctor">关注</a>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt><a href="http://my.csdn.net/roy_88" rel="nofollow" target="_blank"><img alt="roy_88" class="avatar" src="http://avatar.csdn.net/C/4/A/3_roy_88.jpg" /></a></dt>
+                    <dd>
+                      <span><a href="http://my.csdn.net/roy_88" class="user_name" rel="nofollow" target="_blank" title="roy_88">roy_88</a></span>
+                      <a href="#" class="att" data-username="roy_88">关注</a>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt><a href="http://my.csdn.net/fangxinggood" rel="nofollow" target="_blank"><img alt="fangxinggood" class="avatar" src="http://avatar.csdn.net/0/8/7/3_fangxinggood.jpg" /></a></dt>
+                    <dd>
+                      <span><a href="http://my.csdn.net/fangxinggood" class="user_name" rel="nofollow" target="_blank" title="fangxinggood">fangxinggood</a></span>
+                      <a href="#" class="att" data-username="fangxinggood">关注</a>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt><a href="http://my.csdn.net/of123" rel="nofollow" target="_blank"><img alt="of123" class="avatar" src="http://avatar.csdn.net/1/1/E/3_of123.jpg" /></a></dt>
+                    <dd>
+                      <span><a href="http://my.csdn.net/of123" class="user_name" rel="nofollow" target="_blank" title="of123">of123</a></span>
+                      <a href="#" class="att" data-username="of123">关注</a>
+                    </dd>
+                  </dl>
+                </li>
+            </ul>
+          </div>
+          <div class="hot_bbs">
+              <h4>
+                <span><a href="/tech_hot_topics" target="_blank" class="more">更多&gt;&gt;</a></span>
+                论坛热帖-技术区
+                <a href="/tech_hot_topics.atom" class="rss" target="_blank">RSS</a>
+              </h4>
+              <ul>
+                  <li>
+                    <span class="view">人气:180</span>
+                    <span class="classfiy"><a href="/forums/CSharp" target="_blank">[C#]</a></span>
+                    <a href="/topics/392171525" class="title" target="_blank" title="为什么多次使用Thread.Sleep()语句，直到程序执行完毕控件内容才发生改变">为什么多次使用Thread.Sleep()语句，直到程序执行完毕...</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:180</span>
+                    <span class="classfiy"><a href="/forums/ASPDotNET" target="_blank">[ASP.NET]</a></span>
+                    <a href="/topics/392171743" class="title" target="_blank" title="jq如何获取当前元素的父级元素，下的某一个标签？">jq如何获取当前元素的父级元素，下的某一个标签？</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:280</span>
+                    <span class="classfiy"><a href="/forums/VC_ImageProcessing" target="_blank">[图形处理/算法]</a></span>
+                    <a href="/topics/392171461" class="title" target="_blank" title="【C++】【GDI+】如何检测鼠标是否在矩形内，并粗化该矩形（图中有多个矩形）">【C++】【GDI+】如何检测鼠标是否在矩形内，并粗化该...</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:260</span>
+                    <span class="classfiy"><a href="/forums/C" target="_blank">[C语言]</a></span>
+                    <a href="/topics/392171392" class="title" target="_blank" title="[资源优选]第十九期：20个热门的C语言源码">[资源优选]第十九期：20个热门的C语言源码</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:448</span>
+                    <span class="classfiy"><a href="/forums/CSharp" target="_blank">[C#]</a></span>
+                    <a href="/topics/392171302" class="title" target="_blank" title="现在网站开发都用什么框架做了啊">现在网站开发都用什么框架做了啊</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:300</span>
+                    <span class="classfiy"><a href="/forums/ASPDotNET" target="_blank">[ASP.NET]</a></span>
+                    <a href="/topics/392171267" class="title" target="_blank" title="当前上下文不存在&quot;i&quot;">当前上下文不存在&quot;i&quot;</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:440</span>
+                    <span class="classfiy"><a href="/forums/J2EE" target="_blank">[J2EE]</a></span>
+                    <a href="/topics/392171206" class="title" target="_blank" title="SpringMVC注解，访问404，没有进入到controller">SpringMVC注解，访问404，没有进入到controller</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:220</span>
+                    <span class="classfiy"><a href="/forums/Java_WebDevelop" target="_blank">[Web 开发]</a></span>
+                    <a href="/topics/392171204" class="title" target="_blank" title="点击提交后出现java.lang.NumberFormatException: null异常，求大神回帖~">点击提交后出现java.lang.NumberFormatException: nul...</a>
+                  </li>
+              </ul>
+
+              <h4>
+                <span><a href="/nontech_hot_topics" target="_blank" class="more">更多&gt;&gt;</a></span>
+                论坛热帖-生活区
+                <a href="/nontech_hot_topics.atom" class="rss" target="_blank">RSS</a>
+              </h4>
+              <ul>
+                  <li>
+                    <span class="view">人气:300</span>
+                    <span class="classfiy"><a href="/forums/FreeZone" target="_blank">[灌水乐园]</a></span>
+                    <a href="/topics/392171882" class="title" target="_blank" title="你们为养老做了哪些准备？">你们为养老做了哪些准备？</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:380</span>
+                    <span class="classfiy"><a href="/forums/FreeZone" target="_blank">[灌水乐园]</a></span>
+                    <a href="/topics/392171621" class="title" target="_blank" title="据说这个是80后们玩过的游戏，最近又玩了下">据说这个是80后们玩过的游戏，最近又玩了下</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:215</span>
+                    <span class="classfiy"><a href="/forums/FreeZone" target="_blank">[灌水乐园]</a></span>
+                    <a href="/topics/392171640" class="title" target="_blank" title="转让99新音乐耳机，嘿嘿，有兴趣的进来吧">转让99新音乐耳机，嘿嘿，有兴趣的进来吧</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:320</span>
+                    <span class="classfiy"><a href="/forums/FreeZone" target="_blank">[灌水乐园]</a></span>
+                    <a href="/topics/392171483" class="title" target="_blank" title="车上放红牛也才500，这一桶，价值10000吧！">车上放红牛也才500，这一桶，价值10000吧！</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:420</span>
+                    <span class="classfiy"><a href="/forums/FreeZone" target="_blank">[灌水乐园]</a></span>
+                    <a href="/topics/392171466" class="title" target="_blank" title="【娜娜讲坛】 乱炖德意志">【娜娜讲坛】 乱炖德意志</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:400</span>
+                    <span class="classfiy"><a href="/forums/FreeZone" target="_blank">[灌水乐园]</a></span>
+                    <a href="/topics/392171436" class="title" target="_blank" title="吊大的来帮挑个笔记本呗,顺便散分">吊大的来帮挑个笔记本呗,顺便散分</a>
+                  </li>
+                  <li>
+                    <span class="view">人气:480</span>
+                    <span class="classfiy"><a href="/forums/FreeZone" target="_blank">[灌水乐园]</a></span>
+                    <a href="/topics/392171424" class="title" target="_blank" title="读懂一带一路，才知道中国到底有多牛逼！">读懂一带一路，才知道中国到底有多牛逼！</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="right">
+          <div id="Tab1" class="honour_list">
+            <h4>荣誉榜</h4>
+            <div class="tab">
+              <ul>
+                <li id="one1" class="hover"><a href="#week_ranks"><span>周榜</span></a></li>
+                <li id="one2"><a href="#month_ranks"><span>月榜</span></a></li>
+                <li id="one3"><a href="#total_ranks"><span>总榜</span></a></li>
+              </ul>
+            </div>
+            <div class="list">
+              <ul id="week_ranks" class="hover">
+                  <li><span class="num">2059</span><a href="http://my.csdn.net/zhao4zhong1" rel="nofollow" target="_blank" title="zhao4zhong1">zhao4zhong1</a></li>
+                  <li><span class="num">1268</span><a href="http://my.csdn.net/pany1209" rel="nofollow" target="_blank" title="pany1209">pany1209</a></li>
+                  <li><span class="num">1198</span><a href="http://my.csdn.net/xuzuning" rel="nofollow" target="_blank" title="xuzuning">xuzuning</a></li>
+                  <li><span class="num">1103</span><a href="http://my.csdn.net/showbo" rel="nofollow" target="_blank" title="showbo">showbo</a></li>
+                  <li><span class="num">1066</span><a href="http://my.csdn.net/sinat_28984567" rel="nofollow" target="_blank" title="sinat_28984567">sinat_28984567</a></li>
+                  <li><span class="num">914</span><a href="http://my.csdn.net/sp1234" rel="nofollow" target="_blank" title="sp1234">sp1234</a></li>
+                  <li><span class="num">796</span><a href="http://my.csdn.net/starfd" rel="nofollow" target="_blank" title="starfd">starfd</a></li>
+                  <li><span class="num">762</span><a href="http://my.csdn.net/jslang" rel="nofollow" target="_blank" title="jslang">jslang</a></li>
+                  <li><span class="num">738</span><a href="http://my.csdn.net/wmxcn2000" rel="nofollow" target="_blank" title="wmxcn2000">wmxcn2000</a></li>
+                  <li><span class="num">700</span><a href="http://my.csdn.net/paschen" rel="nofollow" target="_blank" title="paschen">paschen</a></li>
+                  <li><span class="num">602</span><a href="http://my.csdn.net/fdipzone" rel="nofollow" target="_blank" title="fdipzone">fdipzone</a></li>
+                  <li><span class="num">594</span><a href="http://my.csdn.net/duanzi_peng" rel="nofollow" target="_blank" title="duanzi_peng">duanzi_peng</a></li>
+                  <li><span class="num">493</span><a href="http://my.csdn.net/cfjtaishan" rel="nofollow" target="_blank" title="cfjtaishan">cfjtaishan</a></li>
+                  <li><span class="num">455</span><a href="http://my.csdn.net/xuggzu" rel="nofollow" target="_blank" title="xuggzu">xuggzu</a></li>
+                  <li><span class="num">447</span><a href="http://my.csdn.net/zc881124" rel="nofollow" target="_blank" title="zc881124">zc881124</a></li>
+                  <li><span class="num">416</span><a href="http://my.csdn.net/hanjun0612" rel="nofollow" target="_blank" title="hanjun0612">hanjun0612</a></li>
+                  <li><span class="num">415</span><a href="http://my.csdn.net/schlafenhamster" rel="nofollow" target="_blank" title="schlafenhamster">schlafenhamster</a></li>
+                  <li><span class="num">395</span><a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank" title="shijing266">shijing266</a></li>
+                  <li><span class="num">385</span><a href="http://my.csdn.net/zgl7903" rel="nofollow" target="_blank" title="zgl7903">zgl7903</a></li>
+                  <li><span class="num">347</span><a href="http://my.csdn.net/jianwen0529" rel="nofollow" target="_blank" title="jianwen0529">jianwen0529</a></li>
+                  <li><span class="num">325</span><a href="http://my.csdn.net/Demons_by" rel="nofollow" target="_blank" title="Demons_by">Demons_by</a></li>
+                  <li><span class="num">315</span><a href="http://my.csdn.net/tianfang" rel="nofollow" target="_blank" title="tianfang">tianfang</a></li>
+                  <li><span class="num">295</span><a href="http://my.csdn.net/xdashewan" rel="nofollow" target="_blank" title="xdashewan">xdashewan</a></li>
+                  <li><span class="num">231</span><a href="http://my.csdn.net/shoppo0505" rel="nofollow" target="_blank" title="shoppo0505">shoppo0505</a></li>
+                  <li><span class="num">230</span><a href="http://my.csdn.net/cutmelon" rel="nofollow" target="_blank" title="cutmelon">cutmelon</a></li>
+                  <li><span class="num">229</span><a href="http://my.csdn.net/Tiger_Zhao" rel="nofollow" target="_blank" title="Tiger_Zhao">Tiger_Zhao</a></li>
+                  <li><span class="num">227</span><a href="http://my.csdn.net/jklinux" rel="nofollow" target="_blank" title="jklinux">jklinux</a></li>
+                  <li><span class="num">217</span><a href="http://my.csdn.net/still_rain" rel="nofollow" target="_blank" title="still_rain">still_rain</a></li>
+                  <li><span class="num">213</span><a href="http://my.csdn.net/jam00" rel="nofollow" target="_blank" title="jam00">jam00</a></li>
+                  <li><span class="num">210</span><a href="http://my.csdn.net/caozhy" rel="nofollow" target="_blank" title="caozhy">caozhy</a></li>
+                  <li><span class="num">210</span><a href="http://my.csdn.net/qq_32661557" rel="nofollow" target="_blank" title="qq_32661557">qq_32661557</a></li>
+                  <li><span class="num">210</span><a href="http://my.csdn.net/ACMAIN_CHM" rel="nofollow" target="_blank" title="ACMAIN_CHM">ACMAIN_CHM</a></li>
+                  <li><span class="num">210</span><a href="http://my.csdn.net/qq423399099" rel="nofollow" target="_blank" title="qq423399099">qq423399099</a></li>
+                  <li><span class="num">210</span><a href="http://my.csdn.net/zhujinqiang" rel="nofollow" target="_blank" title="zhujinqiang">zhujinqiang</a></li>
+                  <li><span class="num">207</span><a href="http://my.csdn.net/xmt1139057136" rel="nofollow" target="_blank" title="xmt1139057136">xmt1139057136</a></li>
+                  <li><span class="num">205</span><a href="http://my.csdn.net/worldy" rel="nofollow" target="_blank" title="worldy">worldy</a></li>
+                  <li><span class="num">202</span><a href="http://my.csdn.net/qq2890974020" rel="nofollow" target="_blank" title="qq2890974020">qq2890974020</a></li>
+                  <li><span class="num">200</span><a href="http://my.csdn.net/zhou2015bo" rel="nofollow" target="_blank" title="zhou2015bo">zhou2015bo</a></li>
+                  <li><span class="num">195</span><a href="http://my.csdn.net/csdndenglu" rel="nofollow" target="_blank" title="csdndenglu">csdndenglu</a></li>
+                  <li><span class="num">190</span><a href="http://my.csdn.net/wen115" rel="nofollow" target="_blank" title="wen115">wen115</a></li>
+                  <li><span class="num">187</span><a href="http://my.csdn.net/diaodiaop" rel="nofollow" target="_blank" title="diaodiaop">diaodiaop</a></li>
+                  <li><span class="num">180</span><a href="http://my.csdn.net/uid123" rel="nofollow" target="_blank" title="uid123">uid123</a></li>
+                  <li><span class="num">180</span><a href="http://my.csdn.net/swwllx" rel="nofollow" target="_blank" title="swwllx">swwllx</a></li>
+                  <li><span class="num">171</span><a href="http://my.csdn.net/roy_88" rel="nofollow" target="_blank" title="roy_88">roy_88</a></li>
+                  <li><span class="num">168</span><a href="http://my.csdn.net/u010165006" rel="nofollow" target="_blank" title="u010165006">u010165006</a></li>
+                  <li><span class="num">160</span><a href="http://my.csdn.net/xiaojunjor" rel="nofollow" target="_blank" title="xiaojunjor">xiaojunjor</a></li>
+                  <li><span class="num">160</span><a href="http://my.csdn.net/yenange" rel="nofollow" target="_blank" title="yenange">yenange</a></li>
+                  <li><span class="num">157</span><a href="http://my.csdn.net/qq_30831935" rel="nofollow" target="_blank" title="qq_30831935">qq_30831935</a></li>
+                  <li><span class="num">155</span><a href="http://my.csdn.net/oyljerry" rel="nofollow" target="_blank" title="oyljerry">oyljerry</a></li>
+                  <li><span class="num">155</span><a href="http://my.csdn.net/crystal_lz" rel="nofollow" target="_blank" title="crystal_lz">crystal_lz</a></li>
+                  <li><span class="num">153</span><a href="http://my.csdn.net/woainixinxin521" rel="nofollow" target="_blank" title="woainixinxin521">woainixinxin521</a></li>
+                  <li><span class="num">150</span><a href="http://my.csdn.net/liaitan" rel="nofollow" target="_blank" title="liaitan">liaitan</a></li>
+                  <li><span class="num">150</span><a href="http://my.csdn.net/Chen8013" rel="nofollow" target="_blank" title="Chen8013">Chen8013</a></li>
+                  <li><span class="num">150</span><a href="http://my.csdn.net/ckc" rel="nofollow" target="_blank" title="ckc">ckc</a></li>
+                  <li><span class="num">150</span><a href="http://my.csdn.net/defonds" rel="nofollow" target="_blank" title="defonds">defonds</a></li>
+                  <li><span class="num">150</span><a href="http://my.csdn.net/sdghchj" rel="nofollow" target="_blank" title="sdghchj">sdghchj</a></li>
+                  <li><span class="num">150</span><a href="http://my.csdn.net/ch21st" rel="nofollow" target="_blank" title="ch21st">ch21st</a></li>
+                  <li><span class="num">150</span><a href="http://my.csdn.net/jason_wentzel" rel="nofollow" target="_blank" title="jason_wentzel">jason_wentzel</a></li>
+                  <li><span class="num">140</span><a href="http://my.csdn.net/u012302883" rel="nofollow" target="_blank" title="u012302883">u012302883</a></li>
+                  <li><span class="num">140</span><a href="http://my.csdn.net/q3733353520" rel="nofollow" target="_blank" title="q3733353520">q3733353520</a></li>
+                  <li><span class="num">135</span><a href="http://my.csdn.net/rucypli" rel="nofollow" target="_blank" title="rucypli">rucypli</a></li>
+                  <li><span class="num">135</span><a href="http://my.csdn.net/From_TaiWan" rel="nofollow" target="_blank" title="From_TaiWan">From_TaiWan</a></li>
+                  <li><span class="num">134</span><a href="http://my.csdn.net/ducker3590" rel="nofollow" target="_blank" title="ducker3590">ducker3590</a></li>
+                  <li><span class="num">130</span><a href="http://my.csdn.net/zjcxc" rel="nofollow" target="_blank" title="zjcxc">zjcxc</a></li>
+                  <li><span class="num">129</span><a href="http://my.csdn.net/qq_36409192" rel="nofollow" target="_blank" title="qq_36409192">qq_36409192</a></li>
+                  <li><span class="num">123</span><a href="http://my.csdn.net/starytx" rel="nofollow" target="_blank" title="starytx">starytx</a></li>
+                  <li><span class="num">120</span><a href="http://my.csdn.net/jiangsheng" rel="nofollow" target="_blank" title="jiangsheng">jiangsheng</a></li>
+                  <li><span class="num">120</span><a href="http://my.csdn.net/weixin_37516755" rel="nofollow" target="_blank" title="weixin_37516755">weixin_37516755</a></li>
+                  <li><span class="num">120</span><a href="http://my.csdn.net/cn00439805" rel="nofollow" target="_blank" title="cn00439805">cn00439805</a></li>
+                  <li><span class="num">119</span><a href="http://my.csdn.net/lyhoo163" rel="nofollow" target="_blank" title="lyhoo163">lyhoo163</a></li>
+                  <li><span class="num">110</span><a href="http://my.csdn.net/hookee" rel="nofollow" target="_blank" title="hookee">hookee</a></li>
+                  <li><span class="num">110</span><a href="http://my.csdn.net/weimengfeiwu" rel="nofollow" target="_blank" title="weimengfeiwu">weimengfeiwu</a></li>
+                  <li><span class="num">110</span><a href="http://my.csdn.net/yi_iy" rel="nofollow" target="_blank" title="yi_iy">yi_iy</a></li>
+                  <li><span class="num">110</span><a href="http://my.csdn.net/Chinajiyong" rel="nofollow" target="_blank" title="Chinajiyong">Chinajiyong</a></li>
+                  <li><span class="num">106</span><a href="http://my.csdn.net/u012536120" rel="nofollow" target="_blank" title="u012536120">u012536120</a></li>
+                  <li><span class="num">105</span><a href="http://my.csdn.net/tomsoft" rel="nofollow" target="_blank" title="tomsoft">tomsoft</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/wanghui0380" rel="nofollow" target="_blank" title="wanghui0380">wanghui0380</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/alby" rel="nofollow" target="_blank" title="alby">alby</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/pharaoh_shi" rel="nofollow" target="_blank" title="pharaoh_shi">pharaoh_shi</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/kandunjie0794" rel="nofollow" target="_blank" title="kandunjie0794">kandunjie0794</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/aschouas" rel="nofollow" target="_blank" title="aschouas">aschouas</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/u014567183" rel="nofollow" target="_blank" title="u014567183">u014567183</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/weijory" rel="nofollow" target="_blank" title="weijory">weijory</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/akuma8848" rel="nofollow" target="_blank" title="akuma8848">akuma8848</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/avi9111" rel="nofollow" target="_blank" title="avi9111">avi9111</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/yupeigu" rel="nofollow" target="_blank" title="yupeigu">yupeigu</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/bloodish" rel="nofollow" target="_blank" title="bloodish">bloodish</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/zzz3265" rel="nofollow" target="_blank" title="zzz3265">zzz3265</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/zzgzzg00" rel="nofollow" target="_blank" title="zzgzzg00">zzgzzg00</a></li>
+                  <li><span class="num">100</span><a href="http://my.csdn.net/cvbtvbwu" rel="nofollow" target="_blank" title="cvbtvbwu">cvbtvbwu</a></li>
+                  <li><span class="num">99</span><a href="http://my.csdn.net/adeng1919" rel="nofollow" target="_blank" title="adeng1919">adeng1919</a></li>
+                  <li><span class="num">98</span><a href="http://my.csdn.net/chang_bo" rel="nofollow" target="_blank" title="chang_bo">chang_bo</a></li>
+                  <li><span class="num">97</span><a href="http://my.csdn.net/91program" rel="nofollow" target="_blank" title="91program">91program</a></li>
+                  <li><span class="num">95</span><a href="http://my.csdn.net/appetizing_fish1" rel="nofollow" target="_blank" title="appetizing_fish1">appetizing_fish1</a></li>
+                  <li><span class="num">94</span><a href="http://my.csdn.net/like78569" rel="nofollow" target="_blank" title="like78569">like78569</a></li>
+                  <li><span class="num">93</span><a href="http://my.csdn.net/mybook201314" rel="nofollow" target="_blank" title="mybook201314">mybook201314</a></li>
+                  <li><span class="num">90</span><a href="http://my.csdn.net/FancyMouse" rel="nofollow" target="_blank" title="FancyMouse">FancyMouse</a></li>
+                  <li><span class="num">90</span><a href="http://my.csdn.net/lovelj2012" rel="nofollow" target="_blank" title="lovelj2012">lovelj2012</a></li>
+                  <li><span class="num">90</span><a href="http://my.csdn.net/wtuqi" rel="nofollow" target="_blank" title="wtuqi">wtuqi</a></li>
+                  <li><span class="num">90</span><a href="http://my.csdn.net/apollokk" rel="nofollow" target="_blank" title="apollokk">apollokk</a></li>
+              </ul>
+
+              <ul id="month_ranks" style="display:none">
+                  <li><span class="num">7572</span><a href="http://my.csdn.net/sinat_28984567" rel="nofollow" target="_blank" title="sinat_28984567">sinat_28984567</a></li>
+                  <li><span class="num">6372</span><a href="http://my.csdn.net/zhao4zhong1" rel="nofollow" target="_blank" title="zhao4zhong1">zhao4zhong1</a></li>
+                  <li><span class="num">5265</span><a href="http://my.csdn.net/xuzuning" rel="nofollow" target="_blank" title="xuzuning">xuzuning</a></li>
+                  <li><span class="num">4828</span><a href="http://my.csdn.net/sp1234" rel="nofollow" target="_blank" title="sp1234">sp1234</a></li>
+                  <li><span class="num">4805</span><a href="http://my.csdn.net/wmxcn2000" rel="nofollow" target="_blank" title="wmxcn2000">wmxcn2000</a></li>
+                  <li><span class="num">4800</span><a href="http://my.csdn.net/pany1209" rel="nofollow" target="_blank" title="pany1209">pany1209</a></li>
+                  <li><span class="num">4316</span><a href="http://my.csdn.net/paschen" rel="nofollow" target="_blank" title="paschen">paschen</a></li>
+                  <li><span class="num">3080</span><a href="http://my.csdn.net/showbo" rel="nofollow" target="_blank" title="showbo">showbo</a></li>
+                  <li><span class="num">2888</span><a href="http://my.csdn.net/jslang" rel="nofollow" target="_blank" title="jslang">jslang</a></li>
+                  <li><span class="num">2778</span><a href="http://my.csdn.net/lrx2011" rel="nofollow" target="_blank" title="lrx2011">lrx2011</a></li>
+                  <li><span class="num">2587</span><a href="http://my.csdn.net/xuggzu" rel="nofollow" target="_blank" title="xuggzu">xuggzu</a></li>
+                  <li><span class="num">1950</span><a href="http://my.csdn.net/starfd" rel="nofollow" target="_blank" title="starfd">starfd</a></li>
+                  <li><span class="num">1935</span><a href="http://my.csdn.net/stherix" rel="nofollow" target="_blank" title="stherix">stherix</a></li>
+                  <li><span class="num">1868</span><a href="http://my.csdn.net/fdipzone" rel="nofollow" target="_blank" title="fdipzone">fdipzone</a></li>
+                  <li><span class="num">1857</span><a href="http://my.csdn.net/duanzi_peng" rel="nofollow" target="_blank" title="duanzi_peng">duanzi_peng</a></li>
+                  <li><span class="num">1792</span><a href="http://my.csdn.net/shingoscar" rel="nofollow" target="_blank" title="shingoscar">shingoscar</a></li>
+                  <li><span class="num">1602</span><a href="http://my.csdn.net/hanjun0612" rel="nofollow" target="_blank" title="hanjun0612">hanjun0612</a></li>
+                  <li><span class="num">1403</span><a href="http://my.csdn.net/cfjtaishan" rel="nofollow" target="_blank" title="cfjtaishan">cfjtaishan</a></li>
+                  <li><span class="num">1378</span><a href="http://my.csdn.net/zgl7903" rel="nofollow" target="_blank" title="zgl7903">zgl7903</a></li>
+                  <li><span class="num">1243</span><a href="http://my.csdn.net/xdashewan" rel="nofollow" target="_blank" title="xdashewan">xdashewan</a></li>
+                  <li><span class="num">1222</span><a href="http://my.csdn.net/tianfang" rel="nofollow" target="_blank" title="tianfang">tianfang</a></li>
+                  <li><span class="num">1177</span><a href="http://my.csdn.net/roy_88" rel="nofollow" target="_blank" title="roy_88">roy_88</a></li>
+                  <li><span class="num">1108</span><a href="http://my.csdn.net/Tiger_Zhao" rel="nofollow" target="_blank" title="Tiger_Zhao">Tiger_Zhao</a></li>
+                  <li><span class="num">1026</span><a href="http://my.csdn.net/caozhy" rel="nofollow" target="_blank" title="caozhy">caozhy</a></li>
+                  <li><span class="num">1005</span><a href="http://my.csdn.net/diaodiaop" rel="nofollow" target="_blank" title="diaodiaop">diaodiaop</a></li>
+                  <li><span class="num">912</span><a href="http://my.csdn.net/zzgzzg00" rel="nofollow" target="_blank" title="zzgzzg00">zzgzzg00</a></li>
+                  <li><span class="num">882</span><a href="http://my.csdn.net/Chen8013" rel="nofollow" target="_blank" title="Chen8013">Chen8013</a></li>
+                  <li><span class="num">859</span><a href="http://my.csdn.net/jianwen0529" rel="nofollow" target="_blank" title="jianwen0529">jianwen0529</a></li>
+                  <li><span class="num">845</span><a href="http://my.csdn.net/lzp_lrp" rel="nofollow" target="_blank" title="lzp_lrp">lzp_lrp</a></li>
+                  <li><span class="num">786</span><a href="http://my.csdn.net/ink_s" rel="nofollow" target="_blank" title="ink_s">ink_s</a></li>
+                  <li><span class="num">747</span><a href="http://my.csdn.net/wang_peng_yl" rel="nofollow" target="_blank" title="wang_peng_yl">wang_peng_yl</a></li>
+                  <li><span class="num">726</span><a href="http://my.csdn.net/zuoxingyu" rel="nofollow" target="_blank" title="zuoxingyu">zuoxingyu</a></li>
+                  <li><span class="num">725</span><a href="http://my.csdn.net/ACMAIN_CHM" rel="nofollow" target="_blank" title="ACMAIN_CHM">ACMAIN_CHM</a></li>
+                  <li><span class="num">718</span><a href="http://my.csdn.net/yupeigu" rel="nofollow" target="_blank" title="yupeigu">yupeigu</a></li>
+                  <li><span class="num">703</span><a href="http://my.csdn.net/Libby1984" rel="nofollow" target="_blank" title="Libby1984">Libby1984</a></li>
+                  <li><span class="num">698</span><a href="http://my.csdn.net/rucypli" rel="nofollow" target="_blank" title="rucypli">rucypli</a></li>
+                  <li><span class="num">665</span><a href="http://my.csdn.net/aschouas" rel="nofollow" target="_blank" title="aschouas">aschouas</a></li>
+                  <li><span class="num">655</span><a href="http://my.csdn.net/Forty2" rel="nofollow" target="_blank" title="Forty2">Forty2</a></li>
+                  <li><span class="num">620</span><a href="http://my.csdn.net/santiaodahan" rel="nofollow" target="_blank" title="santiaodahan">santiaodahan</a></li>
+                  <li><span class="num">598</span><a href="http://my.csdn.net/ipqtjmqj" rel="nofollow" target="_blank" title="ipqtjmqj">ipqtjmqj</a></li>
+                  <li><span class="num">589</span><a href="http://my.csdn.net/DelphiGuy" rel="nofollow" target="_blank" title="DelphiGuy">DelphiGuy</a></li>
+                  <li><span class="num">563</span><a href="http://my.csdn.net/worldy" rel="nofollow" target="_blank" title="worldy">worldy</a></li>
+                  <li><span class="num">558</span><a href="http://my.csdn.net/lyhoo163" rel="nofollow" target="_blank" title="lyhoo163">lyhoo163</a></li>
+                  <li><span class="num">558</span><a href="http://my.csdn.net/CharlesSimonyi" rel="nofollow" target="_blank" title="CharlesSimonyi">CharlesSimonyi</a></li>
+                  <li><span class="num">557</span><a href="http://my.csdn.net/schlafenhamster" rel="nofollow" target="_blank" title="schlafenhamster">schlafenhamster</a></li>
+                  <li><span class="num">546</span><a href="http://my.csdn.net/Chinajiyong" rel="nofollow" target="_blank" title="Chinajiyong">Chinajiyong</a></li>
+                  <li><span class="num">543</span><a href="http://my.csdn.net/u012418098" rel="nofollow" target="_blank" title="u012418098">u012418098</a></li>
+                  <li><span class="num">539</span><a href="http://my.csdn.net/xmt1139057136" rel="nofollow" target="_blank" title="xmt1139057136">xmt1139057136</a></li>
+                  <li><span class="num">535</span><a href="http://my.csdn.net/shoppo0505" rel="nofollow" target="_blank" title="shoppo0505">shoppo0505</a></li>
+                  <li><span class="num">511</span><a href="http://my.csdn.net/qq_29594393" rel="nofollow" target="_blank" title="qq_29594393">qq_29594393</a></li>
+                  <li><span class="num">508</span><a href="http://my.csdn.net/u010165006" rel="nofollow" target="_blank" title="u010165006">u010165006</a></li>
+                  <li><span class="num">489</span><a href="http://my.csdn.net/vnvlyp" rel="nofollow" target="_blank" title="vnvlyp">vnvlyp</a></li>
+                  <li><span class="num">480</span><a href="http://my.csdn.net/u012536120" rel="nofollow" target="_blank" title="u012536120">u012536120</a></li>
+                  <li><span class="num">468</span><a href="http://my.csdn.net/qq_36291408" rel="nofollow" target="_blank" title="qq_36291408">qq_36291408</a></li>
+                  <li><span class="num">468</span><a href="http://my.csdn.net/ap0405140" rel="nofollow" target="_blank" title="ap0405140">ap0405140</a></li>
+                  <li><span class="num">466</span><a href="http://my.csdn.net/js14982" rel="nofollow" target="_blank" title="js14982">js14982</a></li>
+                  <li><span class="num">465</span><a href="http://my.csdn.net/xian_wwq" rel="nofollow" target="_blank" title="xian_wwq">xian_wwq</a></li>
+                  <li><span class="num">455</span><a href="http://my.csdn.net/insus" rel="nofollow" target="_blank" title="insus">insus</a></li>
+                  <li><span class="num">450</span><a href="http://my.csdn.net/xiaofanku" rel="nofollow" target="_blank" title="xiaofanku">xiaofanku</a></li>
+                  <li><span class="num">450</span><a href="http://my.csdn.net/qq423399099" rel="nofollow" target="_blank" title="qq423399099">qq423399099</a></li>
+                  <li><span class="num">445</span><a href="http://my.csdn.net/functionsub" rel="nofollow" target="_blank" title="functionsub">functionsub</a></li>
+                  <li><span class="num">433</span><a href="http://my.csdn.net/qnmdcsdn" rel="nofollow" target="_blank" title="qnmdcsdn">qnmdcsdn</a></li>
+                  <li><span class="num">430</span><a href="http://my.csdn.net/cn00439805" rel="nofollow" target="_blank" title="cn00439805">cn00439805</a></li>
+                  <li><span class="num">428</span><a href="http://my.csdn.net/yanluofeihong" rel="nofollow" target="_blank" title="yanluofeihong">yanluofeihong</a></li>
+                  <li><span class="num">426</span><a href="http://my.csdn.net/wanghui0380" rel="nofollow" target="_blank" title="wanghui0380">wanghui0380</a></li>
+                  <li><span class="num">416</span><a href="http://my.csdn.net/lovelj2012" rel="nofollow" target="_blank" title="lovelj2012">lovelj2012</a></li>
+                  <li><span class="num">414</span><a href="http://my.csdn.net/VisualEleven" rel="nofollow" target="_blank" title="VisualEleven">VisualEleven</a></li>
+                  <li><span class="num">410</span><a href="http://my.csdn.net/zhangsheng_1992" rel="nofollow" target="_blank" title="zhangsheng_1992">zhangsheng_1992</a></li>
+                  <li><span class="num">408</span><a href="http://my.csdn.net/jordan102" rel="nofollow" target="_blank" title="jordan102">jordan102</a></li>
+                  <li><span class="num">397</span><a href="http://my.csdn.net/xiaohuh421" rel="nofollow" target="_blank" title="xiaohuh421">xiaohuh421</a></li>
+                  <li><span class="num">393</span><a href="http://my.csdn.net/oyljerry" rel="nofollow" target="_blank" title="oyljerry">oyljerry</a></li>
+                  <li><span class="num">391</span><a href="http://my.csdn.net/zc881124" rel="nofollow" target="_blank" title="zc881124">zc881124</a></li>
+                  <li><span class="num">384</span><a href="http://my.csdn.net/wang0635" rel="nofollow" target="_blank" title="wang0635">wang0635</a></li>
+                  <li><span class="num">378</span><a href="http://my.csdn.net/of123" rel="nofollow" target="_blank" title="of123">of123</a></li>
+                  <li><span class="num">375</span><a href="http://my.csdn.net/ch21st" rel="nofollow" target="_blank" title="ch21st">ch21st</a></li>
+                  <li><span class="num">372</span><a href="http://my.csdn.net/cvbtvbwu" rel="nofollow" target="_blank" title="cvbtvbwu">cvbtvbwu</a></li>
+                  <li><span class="num">370</span><a href="http://my.csdn.net/qq_30831935" rel="nofollow" target="_blank" title="qq_30831935">qq_30831935</a></li>
+                  <li><span class="num">364</span><a href="http://my.csdn.net/hjywyj" rel="nofollow" target="_blank" title="hjywyj">hjywyj</a></li>
+                  <li><span class="num">358</span><a href="http://my.csdn.net/net_lover" rel="nofollow" target="_blank" title="net_lover">net_lover</a></li>
+                  <li><span class="num">353</span><a href="http://my.csdn.net/angel6709" rel="nofollow" target="_blank" title="angel6709">angel6709</a></li>
+                  <li><span class="num">352</span><a href="http://my.csdn.net/Saleayas" rel="nofollow" target="_blank" title="Saleayas">Saleayas</a></li>
+                  <li><span class="num">350</span><a href="http://my.csdn.net/qq_38039130" rel="nofollow" target="_blank" title="qq_38039130">qq_38039130</a></li>
+                  <li><span class="num">347</span><a href="http://my.csdn.net/ducker3590" rel="nofollow" target="_blank" title="ducker3590">ducker3590</a></li>
+                  <li><span class="num">345</span><a href="http://my.csdn.net/shijing266" rel="nofollow" target="_blank" title="shijing266">shijing266</a></li>
+                  <li><span class="num">341</span><a href="http://my.csdn.net/woainixinxin521" rel="nofollow" target="_blank" title="woainixinxin521">woainixinxin521</a></li>
+                  <li><span class="num">339</span><a href="http://my.csdn.net/hookee" rel="nofollow" target="_blank" title="hookee">hookee</a></li>
+                  <li><span class="num">335</span><a href="http://my.csdn.net/tanta" rel="nofollow" target="_blank" title="tanta">tanta</a></li>
+                  <li><span class="num">335</span><a href="http://my.csdn.net/jam00" rel="nofollow" target="_blank" title="jam00">jam00</a></li>
+                  <li><span class="num">331</span><a href="http://my.csdn.net/guwei4037" rel="nofollow" target="_blank" title="guwei4037">guwei4037</a></li>
+                  <li><span class="num">331</span><a href="http://my.csdn.net/slwsss" rel="nofollow" target="_blank" title="slwsss">slwsss</a></li>
+                  <li><span class="num">327</span><a href="http://my.csdn.net/qq_35209952" rel="nofollow" target="_blank" title="qq_35209952">qq_35209952</a></li>
+                  <li><span class="num">320</span><a href="http://my.csdn.net/chuifengde" rel="nofollow" target="_blank" title="chuifengde">chuifengde</a></li>
+                  <li><span class="num">312</span><a href="http://my.csdn.net/yenange" rel="nofollow" target="_blank" title="yenange">yenange</a></li>
+                  <li><span class="num">310</span><a href="http://my.csdn.net/qq_21400315" rel="nofollow" target="_blank" title="qq_21400315">qq_21400315</a></li>
+                  <li><span class="num">310</span><a href="http://my.csdn.net/superwfei" rel="nofollow" target="_blank" title="superwfei">superwfei</a></li>
+                  <li><span class="num">308</span><a href="http://my.csdn.net/jdsnhan" rel="nofollow" target="_blank" title="jdsnhan">jdsnhan</a></li>
+                  <li><span class="num">307</span><a href="http://my.csdn.net/zjcxc" rel="nofollow" target="_blank" title="zjcxc">zjcxc</a></li>
+                  <li><span class="num">300</span><a href="http://my.csdn.net/YNi_1900" rel="nofollow" target="_blank" title="YNi_1900">YNi_1900</a></li>
+                  <li><span class="num">300</span><a href="http://my.csdn.net/u010808402" rel="nofollow" target="_blank" title="u010808402">u010808402</a></li>
+                  <li><span class="num">300</span><a href="http://my.csdn.net/a501652944" rel="nofollow" target="_blank" title="a501652944">a501652944</a></li>
+              </ul>
+
+              <ul id="total_ranks" style="display:none">
+                  <li><span class="num">1051722</span><a href="http://my.csdn.net/net_lover" rel="nofollow" target="_blank" title="net_lover">net_lover</a></li>
+                  <li><span class="num">915853</span><a href="http://my.csdn.net/zjcxc" rel="nofollow" target="_blank" title="zjcxc">zjcxc</a></li>
+                  <li><span class="num">817546</span><a href="http://my.csdn.net/wuyq11" rel="nofollow" target="_blank" title="wuyq11">wuyq11</a></li>
+                  <li><span class="num">675966</span><a href="http://my.csdn.net/saucer" rel="nofollow" target="_blank" title="saucer">saucer</a></li>
+                  <li><span class="num">598414</span><a href="http://my.csdn.net/xuzuning" rel="nofollow" target="_blank" title="xuzuning">xuzuning</a></li>
+                  <li><span class="num">507639</span><a href="http://my.csdn.net/ACMAIN_CHM" rel="nofollow" target="_blank" title="ACMAIN_CHM">ACMAIN_CHM</a></li>
+                  <li><span class="num">507051</span><a href="http://my.csdn.net/oyljerry" rel="nofollow" target="_blank" title="oyljerry">oyljerry</a></li>
+                  <li><span class="num">499470</span><a href="http://my.csdn.net/zhao4zhong1" rel="nofollow" target="_blank" title="zhao4zhong1">zhao4zhong1</a></li>
+                  <li><span class="num">480788</span><a href="http://my.csdn.net/dawugui" rel="nofollow" target="_blank" title="dawugui">dawugui</a></li>
+                  <li><span class="num">447950</span><a href="http://my.csdn.net/caozhy" rel="nofollow" target="_blank" title="caozhy">caozhy</a></li>
+                  <li><span class="num">427482</span><a href="http://my.csdn.net/sp1234" rel="nofollow" target="_blank" title="sp1234">sp1234</a></li>
+                  <li><span class="num">405616</span><a href="http://my.csdn.net/jiangsheng" rel="nofollow" target="_blank" title="jiangsheng">jiangsheng</a></li>
+                  <li><span class="num">389912</span><a href="http://my.csdn.net/pengdali" rel="nofollow" target="_blank" title="pengdali">pengdali</a></li>
+                  <li><span class="num">382821</span><a href="http://my.csdn.net/bdmh" rel="nofollow" target="_blank" title="bdmh">bdmh</a></li>
+                  <li><span class="num">360412</span><a href="http://my.csdn.net/VisualEleven" rel="nofollow" target="_blank" title="VisualEleven">VisualEleven</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="honour_BM">
+            <h4><a href="/honor" target="_blank">版主荣誉榜</a></h4>
+          </div>
+          <div class="ad_1">
+            <!-- 社区公告上Button (C5) -->
+            <div>
+              <head>
+  <style type="text/css" media="screen">
+      /*body, div{*/
+          /*margin: 0;*/
+          /*padding: 0;*/
+      /*}*/
+  </style>
+</head>
+<body>
+<div id="main_div">
+	<ins data-revive-zoneid="50" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+</div>
+</body>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ad_760">
+        <!-- Blog头条上通栏 (C6) -->
+        <div>
+            <div style="text-align: center; font-size: 0px;">
+	<ins data-revive-zoneid="48" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+</div>
+        </div>
+        <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="/sda/BottomBoard.htm"></iframe>-->
+      </div>
+      <div class="content">
+        <div class="middle">
+          <div class="recom_blog">
+            <h4><span><a href="http://blog.csdn.net" target="_blank" class="more">更多&gt;&gt;</a></span>博文推荐<a href="http://blog.csdn.net/rss.html?type=Home" target="_blank" class="rss">RSS</a></h4>
+            <ul>
+                <li><a href="http://blog.csdn.net/androidyue/article/details/72614805" target="_blank" title="如何看待 Kotlin 成为 Android 官方支持开发语言？">如何看待 Kotlin 成为 Android 官方支持开发语言？</a></li>
+                <li><a href="http://blog.csdn.net/jiangwei0910410003/article/details/70483088" target="_blank" title="Android中带你开发一款自动爆破签名校验工具kstools">Android中带你开发一款自动爆破签名校验工具kstools</a></li>
+                <li><a href="http://blog.csdn.net/blogdevteam/article/details/72625335" target="_blank" title="CSDN日报20170522 ——《从个人习惯到真正的好方法》">CSDN日报20170522 ——《从个人习惯到真正的好方法》</a></li>
+                <li><a href="http://blog.csdn.net/kkkloveyou/article/details/72615103" target="_blank" title="NGINX 简明教程">NGINX 简明教程</a></li>
+                <li><a href="http://blog.csdn.net/hexingen/article/details/72621795" target="_blank" title="Kotlin编程之AndroidStudio（包括3.0与2.x版本）配置与使用">Kotlin编程之AndroidStudio（包括3.0与2.x版本）配置与使用</a></li>
+                <li><a href="http://blog.csdn.net/lylodyf/article/details/70053205" target="_blank" title="Android Shader渲染以及实现水波纹霓虹文字雷达等效果">Android Shader渲染以及实现水波纹霓虹文字雷达等效果</a></li>
+                <li><a href="http://blog.csdn.net/itachi85/article/details/72618688" target="_blank" title="Android深入四大组件（五）Content Provider的启动过程">Android深入四大组件（五）Content Provider的启动过程</a></li>
+                <li><a href="http://blog.csdn.net/aqi00/article/details/72621176" target="_blank" title="Android开发笔记（一百四十四）高仿支付宝的头部伸缩动画">Android开发笔记（一百四十四）高仿支付宝的头部伸缩动画</a></li>
+                <li><a href="http://blog.csdn.net/androidstarjack/article/details/72633193" target="_blank" title="【干货】2017这些技术——你都了解过吗">【干货】2017这些技术——你都了解过吗</a></li>
+                <li><a href="http://blog.csdn.net/zhuweigangzwg/article/details/72624857" target="_blank" title="ffmpeg重采样resample包含AVAudioFifo(三)">ffmpeg重采样resample包含AVAudioFifo(三)</a></li>
+            </ul>
+          </div>
+          <div class="news">
+            <h4><span><a href="http://news.csdn.net" target="_blank" class="more">更多&gt;&gt;</a></span>新闻<a href="http://news.csdn.net/rss_news.html" target="_blank" class="rss">RSS</a></h4>
+            <ul>
+                <li><a href="http://www.csdn.net/article/2017-05-22/2826724" target="_blank" title="一点资讯与视觉中国合作落地 向自媒体免费开放海量图片">一点资讯与视觉中国合作落地 向自媒体免费开放海量图片</a></li>
+                <li><a href="http://www.csdn.net/article/2017-05-16/2826722" target="_blank" title="突破技术壁垒 人工智能为银行反欺诈提供新思路">突破技术壁垒 人工智能为银行反欺诈提供新思路</a></li>
+                <li><a href="http://www.csdn.net/article/2017-05-11/2826721" target="_blank" title="分音塔获天使轮千万投资 人工智能翻译机月底众筹">分音塔获天使轮千万投资 人工智能翻译机月底众筹</a></li>
+                <li><a href="http://www.csdn.net/article/2017-05-11/2826720" target="_blank" title="绿盟科技携手CCF发布“鲲鹏“科研基金 聚焦6大领域补齐生态完整性">绿盟科技携手CCF发布“鲲鹏“科研基金 聚焦6大领域补齐生态完整性</a></li>
+                <li><a href="http://www.csdn.net/article/2017-05-09/2826719" target="_blank" title="魅族成立Flyme事业部 挖掘更大商业价值">魅族成立Flyme事业部 挖掘更大商业价值</a></li>
+                <li><a href="http://www.csdn.net/article/2017-05-09/2826718" target="_blank" title="娜迦受邀加入“中国安卓绿色联盟”+推动应用信息安全">娜迦受邀加入“中国安卓绿色联盟”+推动应用信息安全</a></li>
+                <li><a href="http://www.csdn.net/article/2017-05-08/2826717" target="_blank" title="2017中国大数据应用大会将于7月在成都举办">2017中国大数据应用大会将于7月在成都举办</a></li>
+                <li><a href="http://www.csdn.net/article/2017-05-04/2826714" target="_blank" title="人与机器网络攻防大战开打 人工智能漏洞挖掘潜力巨大">人与机器网络攻防大战开打 人工智能漏洞挖掘潜力巨大</a></li>
+                <li><a href="http://www.csdn.net/article/2017-04-28/2826712" target="_blank" title="2017中国人工智能大会将于7月在杭州举行">2017中国人工智能大会将于7月在杭州举行</a></li>
+                <li><a href="http://www.csdn.net/article/2017-04-25/2826710" target="_blank" title="中国联通、航美在线、海特凯融携手成立“联通航美” 加速机载Wi-Fi市场化进程">中国联通、航美在线、海特凯融携手成立“联通航美” 加速机载Wi-Fi市场化进程</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <div class="help">
+            <h4>论坛帮助</h4>
+            <ul>
+              <li><a href="/help" target="_blank">新手入门</a></li>
+              <li><a href="/smart_questions" target="_blank">提问的智慧</a></li>
+              <li><a href="/help#integral_rules" target="_blank">论坛规则</a></li>
+              <li><a href="/help#common_problem" target="_blank">常见问题</a></li>
+            </ul>
+          </div>
+          <div class="feedback">
+            <h4>给我们反馈</h4>
+            <ul>
+              <li><a href="/forums/suggestion">建议意见</a></li>
+              <li><a href="/forums/complaint">投诉专区</a></li>
+              <li>客服邮箱:<a href="mailto:webmaster@csdn.net">webmaster@csdn.net</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="categories">
+        <h4>主要论坛分类</h4>
+        <div class="ca_l">
+          <ul>
+            <li>
+            <dl>
+              <dt><a href="#">开发语言</a></dt>
+              <dd><a href="/forums/VC">VC++</a>|<a href="/forums/VB/">VB</a>|<a href="/forums/Delphi/">Delphi</a>|<a href="/forums/Cpp/">C/C++</a>|<a href="/forums/BCB/">BCB</a>|<a href="/forums/ASM/">汇编</a></dd>
+            </dl>
+            </li>
+            <li>
+            <dl>
+              <dt><a href="/forums/Enterprise/">企业开发</a></dt>
+              <dd><a href="/forums/Lotus/">Lotus</a>|<a href="/forums/WebSphere/">WebSphere</a>|<a href="/forums/GIS/">GIS</a>|<a href="/forums/Enterprise_Information/">信息化</a>|<a href="/forums/IndustryDevelop/">行业</a></dd>
+            </dl>
+            </li>
+            <li>
+            <dl>
+              <dt><a href="/forums/Java/">Java技术</a></dt>
+              <dd><a href="/forums/J2EE/">J2EE</a>|<a href="/forums/J2ME/">J2ME</a>|<a href="/forums/J2SE/">J2SE</a>|<a href="/forums/Eclipse/">Eclipse</a>|<a href="/forums/JBoss/">JBoss</a></dd>
+            </dl>
+            </li>
+            <li>
+            <dl>
+              <dt><a href="/forums/DotNET/">.Net技术</a></dt>
+              <dd><a href="/forums/CSharp/">C#</a>|<a href="/forums/DotNETFramework/">Framework</a>|<a href="/forums/ASPDotNET/">ASP.NET</a>|<a href="/forums/VBDotNET/">VB.NET</a></dd>
+            </dl>
+            </li>
+            <li>
+            <dl>
+              <dt><a href="/forums/WebDevelop/">Web开发</a></dt>
+              <dd><a href="/forums/ASP/">ASP</a>|<a href="/forums/Java_WebDevelop/">JSP</a>|<a href="/forums/HTMLCSS/">HTML</a>|<a href="/forums/JavaScript/">JavaScript</a>|<a href="/forums/Ajax/">AJAX</a>
+              <a href="/forums/XMLSOAP/">XML</a>|<a href="/forums/IIS/">IIS</a>|<a href="/forums/WebAppServer/">AppServer</a></dd>
+            </dl>
+            </li>
+            <li>
+            <dl>
+              <dt><a href="#">数据库技术</a></dt>
+              <dd><a href="/forums/MSSQL/">SQLServer</a>|<a href="/forums/DB2/">DB2</a>|<a href="/forums/Oracle/">Oracle</a>|<a href="/forums/PowerBuilder/">PB</a>|<a href="/forums/VFP/">VFP</a>
+              <a href="/forums/Access/">Access</a>|<a href="/forums/DataWarehouse/">数据仓库</a>
+            </dl>
+            </li>
+            <li>
+            <dl>
+              <dt><a href="/forums/Windows/">Windows平台</a></dt>
+              <dd><a href="/forums/NetworkConfiguration/">管理</a>|<a href="/forums/WindowsSecurity/">安全</a>
+            </dl>
+            </li>
+            <li>
+            <dl>
+              <dt><a href="/forums/Linux/">Linux/Unix平台</a></dt>
+              <dd><a href="/forums/MySQL">MySQL</a>|<a href="/forums/Apache/">Apache</a></dd>
+            </dl>
+            </li>
+          </ul>
+        </div>
+        <div class="ca_r">
+          <ul>
+            <li><a href="/forums/SE" target="_blank">软件工程</a></li>
+            <li><a href="/forums/HPDevelopment" target="_blank">高性能开发</a></li>
+            <li><a href="/forums/Mobile" target="_blank">移动开发</a></li>
+            <li><a href="/forums/GameDevelop" target="_blank">游戏开发</a></li>
+            <li><a href="/forums/Book" target="_blank">计算机图书</a></li>
+            <li><a href="/forums/ADS" target="_blank">产品厂家</a></li>
+            <li><a href="/forums/Multimedia" target="_blank">流媒体开发</a></li>
+            <li><a href="/forums/MediaAndFlash" target="_blank">多媒体设计</a></li>
+            <li><a href="/forums/ST_Arithmetic" target="_blank">数据结构</a></li>
+            <li><a href="/forums/Embedded" target="_blank">嵌入开发</a></li>
+            <li><a href="/forums/OfficeDevelopment" target="_blank">Office开发</a></li>
+            <li><a href="/forums/HardwareUse" target="_blank">硬件使用</a></li>
+            <li><a href="/forums/FreeZone" target="_blank">灌水乐园</a></li>
+            <li><a href="/forums/ProgrammerStory" target="_blank">程序人生</a></li>
+            <li><a href="/forums/CAREER" target="_blank">求职招聘</a></li>
+            <li><a href="/forums/Game" target="_blank">体育沙龙</a></li>
+            <li><a href="/forums/Shareware" target="_blank">共享软件</a></li>
+            <li><a href="/forums/Trainning" target="_blank">培训认证</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fri_link">
+        <dl>
+          <dt>友情链接</dt>
+          <dd><a href="http://www.programmer.com.cn/" target="_blank">程序员杂志</a></dd>
+          <dd><a href="http://club.domain.cn/" target="_blank">域名论坛</a></dd>
+          <dd><a href="http://social.msdn.microsoft.com/Forums/zh-CN/categories" target="_blank">微软MSDN中文论坛</a></dd>
+          <!--<dd><a href="http://www.itprocommunity.cn/" target="_blank">全球IT中文站</a></dd>-->
+          <dd><a href="http://cn.cocos2d-x.org/" target="_blank">Cocos开发者平台</a></dd>
+        </dl>
+      </div>
+    </div>
+
+    <!--<script type="text/javascript" language="javascript" charset="utf-8">-->
+      <!--<![CDATA[-->
+<!--//      function pongoad4(val) {-->
+<!--//        $('#pongoad_bbs_home_side').html(val);;-->
+<!--//      }-->
+<!--//      $(function(){-->
+<!--//        main_page_js.home_page();-->
+<!--//-->
+<!--//        var url = encodeURIComponent(top.location.href);-->
+<!--//        var id = 4;-->
+<!--//        var callbackfun="pongoad4"-->
+<!--//        var ad_script_tag = (unescape('%3Cscript src="http://a.pongo.com.cn/Job/GetAdForCallBack%3Fid%3D'+id+'%26UrlAdParam%3D'+encodeURIComponent(url)+'%26&CallBack%3D'+callbackfun+'" type="text/javascript"%3E%3C/script%3E'));-->
+<!--//        $('body').append(ad_script_tag);-->
+<!--//      });-->
+      <!--]]>-->
+<!--//-->
+<!--//      $(function() {-->
+<!--//          main_page_js.index_page();-->
+<!--//      });-->
+    <!--</script>-->
+    <script type="text/javascript">
+
+      $('#one1').hover(function(){
+          $('#week_ranks').show();
+          $('#month_ranks').hide();
+          $('#total_ranks').hide();
+      }, function(){
+//          $('#week_ranks').hide();
+      });
+
+      $('#one2').hover(function(){
+          $('#week_ranks').hide();
+          $('#month_ranks').show();
+          $('#total_ranks').hide();
+      }, function(){
+//          $('#month_ranks').hide();
+      });
+
+      $('#one3').hover(function(){
+          $('#week_ranks').hide();
+          $('#month_ranks').hide();
+          $('#total_ranks').show();
+      }, function(){
+//          $('#total_ranks').hide();
+      });
+
+      $('#two1').hover(function(){
+          $('#tech_day_rank').show();
+      }, function(){
+//          $('#tech_day_rank').hide();
+      });
+
+      $('#two2').hover(function(){
+          $('#nontech_day_rank').show();
+          $('#tech_day_rank').hide();
+      }, function(){
+//          $('#nontech_day_rank').hide();
+      });
+
+    </script>
+    <script src="http://c.csdnimg.cn/www/js/component.js"></script>
+    <ins data-revive-zoneid="150" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+<ins data-revive-zoneid="151" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+<ins data-revive-zoneid="152" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+        </div>
+        
+        <script language="javascript" type="text/javascript" src="http://ads.csdn.net/js/async_new.js"></script>
+<div id="a9784604d" style="width: 1px; height: 1px; display: none;">
+	<script id="adJs9784604"></script>
+	<script>document.getElementById("adJs9784604").src = "http://ads.csdn.net/js/opt/9784604.js?t=" + Math.random();</script>
+</div>
+<script type="text/javascript">
+  document.write('<script type="text/javascript" src="http://c.csdnimg.cn/pubfooter/js/publib_footer.js?' + Math.floor(new Date()/120000).toString(36) + '="></'+'script>');
+</script>
+<script type="text/javascript" src="http://www.csdn.net/ui/scripts/Csdn/counter.js"></script>
+
+<script type="text/javascript" src="http://c.csdnimg.cn/pig/pubjs/cnick.js"></script>
+<script id="csdn-toolbar-id" btnId="header_notice_num" wrapId="note1" count="5" subCount="5" type="text/javascript" src="http://c.csdnimg.cn/public/common/toolbar/js/toolbar.js"></script>
+    </body>
+</html>
