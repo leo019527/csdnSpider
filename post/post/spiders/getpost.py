@@ -41,8 +41,4 @@ class GetpostSpider(scrapy.Spider):
             stoptime = tmp[0]
         else:
             stoptime = ""
-
-=======
-        
->>>>>>> 1ceaad15a537cd18fa39b15c6bf4a7fa63f83cff
         pass
