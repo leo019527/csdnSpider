@@ -25,6 +25,7 @@ class GetpostSpider(scrapy.Spider):
         starttime = sel.xpath('//td[@class="post_info topic"]/div/span[@class="time"]/text()').re("[0-9]*-[0-9]*-[0-9]* [0-9]*:[0-9]*:[0-9]*")[0]
         tag = sel.xpath('//div[@class="tag"]/span/a/text()').extract()
         title = sel.xpath('//span[@class="title text_overflow"]/text()').extract()[0]
+<<<<<<< HEAD
         tmp = sel.xpath('//span[@class="red"]').re(u"([\u7f6e][\u9876])")
         if len(tmp) > 0:
             istop = tmp[0]
@@ -41,4 +42,7 @@ class GetpostSpider(scrapy.Spider):
         else:
             stoptime = ""
 
+=======
+        
+>>>>>>> 1ceaad15a537cd18fa39b15c6bf4a7fa63f83cff
         pass
